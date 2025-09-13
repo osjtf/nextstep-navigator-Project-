@@ -149,46 +149,6 @@ nextstep-navigator/
     ├── images/ (icons, team photos)
     └── screens/ (README screenshots)
 
-🧪 Getting Started (Local)
-
-No build tools required — just a static server (to allow fetch of JSON).
-
-Option A — Python (built-in):
-
-# In project root:
-python -m http.server 5500
-# Open: http://localhost:5500
-
-
-Option B — Node http-server (if you have Node.js):
-
-npm install -g http-server
-http-server -p 5500
-# Open: http://localhost:5500
-
-🌐 Deploying to GitHub Pages
-
-Method 1 — Deploy from main (root):
-
-Commit & push your project to GitHub.
-
-Repo → Settings → Pages.
-
-Source: Deploy from a branch → Branch: main → Folder: /root.
-
-Save → wait for the green Your site is published banner.
-
-Your URL will be: https://<username>.github.io/<repo>/.
-
-Method 2 — Deploy from /docs folder:
-
-Move site files into a docs/ folder.
-
-Settings → Pages → Source: main → Folder: /docs.
-
-Save and wait for publish.
-
-If using relative paths, keep links like ./data/careers.json so it works both locally and on Pages.
 
 🔧 Data & Configuration
 JSON files
