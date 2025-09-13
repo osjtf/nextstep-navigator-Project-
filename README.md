@@ -8,7 +8,7 @@ Built by Yemen Developers: Osama Almuhaia · Alshareef Alradhi · Bakil Dahan ·
 
 🚀 Live Demo
 
-Website: 🔧 https://osjtf.github.io/nextstep-navigator-project/
+Website: 🔧 https://osjtf.github.io/nextstep-navigator-Project/
 
 📚 Table of Contents
 
