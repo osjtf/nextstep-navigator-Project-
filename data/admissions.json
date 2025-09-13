@@ -1,0 +1,805 @@
+{
+  "streams": [
+    {
+      "id": "sci-pcm",
+      "userType": "student",
+      "title": "Science (PCM) — Physics, Chemistry, Math",
+      "description": "Ideal for engineering, data science, and quantitative careers. Emphasis on analytical problem-solving and math-heavy curricula.",
+      "subjects": [
+        "Physics",
+        "Chemistry",
+        "Mathematics",
+        "Computer Science (opt)"
+      ],
+      "tags": ["JEE", "SAT Math", "Calculus", "Robotics"],
+      "sampleCareers": [
+        "Software Engineer",
+        "Mechanical Engineer",
+        "Data Analyst",
+        "Quant Researcher"
+      ],
+      "careerIndustry": "Engineering & Technology",
+      "icon": "bi-cpu",
+      "checklistUrl": "assets/checklists/pcm_stream_checklist.pdf"
+    },
+    {
+      "id": "sci-pcb",
+      "userType": "student",
+      "title": "Science (PCB) — Physics, Chemistry, Biology",
+      "description": "Pre-med aligned path. Strong biology foundation for medicine, biotech, and allied health.",
+      "subjects": ["Physics", "Chemistry", "Biology", "Mathematics (opt)"],
+      "tags": ["Pre-Med", "NEET/MCAT", "Anatomy", "Biotech"],
+      "sampleCareers": [
+        "Physician",
+        "Dentist",
+        "Biotechnologist",
+        "Pharmacist"
+      ],
+      "careerIndustry": "Healthcare & Life Sciences",
+      "icon": "bi-heart-pulse",
+      "checklistUrl": "assets/checklists/pcb_stream_checklist.pdf"
+    },
+    {
+      "id": "commerce",
+      "userType": "student",
+      "title": "Commerce & Finance",
+      "description": "Pathway for accounting, finance, economics, and business administration.",
+      "subjects": [
+        "Accountancy",
+        "Business Studies",
+        "Economics",
+        "Mathematics"
+      ],
+      "tags": ["CA/CPA", "CFA", "Banking", "Markets"],
+      "sampleCareers": [
+        "Chartered Accountant",
+        "Financial Analyst",
+        "Investment Banker",
+        "Auditor"
+      ],
+      "careerIndustry": "Finance & Accounting",
+      "icon": "bi-cash-coin",
+      "checklistUrl": "assets/checklists/commerce_stream_checklist.pdf"
+    },
+    {
+      "id": "humanities",
+      "userType": "student",
+      "title": "Humanities & Social Sciences",
+      "description": "For policy, law, journalism, psychology, and liberal arts trajectories.",
+      "subjects": ["Political Science", "Psychology", "History", "Sociology"],
+      "tags": ["UPSC/Policy", "Law", "Journalism", "Research"],
+      "sampleCareers": [
+        "Policy Analyst",
+        "Lawyer",
+        "Journalist",
+        "UX Researcher"
+      ],
+      "careerIndustry": "Public Policy & Social Sciences",
+      "icon": "bi-globe",
+      "checklistUrl": "assets/checklists/humanities_stream_checklist.pdf"
+    },
+    {
+      "id": "comp-sci-foundation",
+      "userType": ["student", "graduate"],
+      "title": "Computer Science Foundation",
+      "description": "Programming fundamentals, data structures, web & app dev basics.",
+      "subjects": ["Python", "Data Structures", "Web Dev", "Algorithms"],
+      "tags": ["Hackathons", "Open Source", "LeetCode", "Git"],
+      "sampleCareers": [
+        "Frontend Dev",
+        "Backend Dev",
+        "Mobile Dev",
+        "QA Engineer"
+      ],
+      "careerIndustry": "Software Development",
+      "icon": "bi-code-slash",
+      "checklistUrl": "assets/checklists/cs_foundation_checklist.pdf"
+    },
+    {
+      "id": "design-arts",
+      "userType": ["student", "graduate"],
+      "title": "Design, Arts & Communication",
+      "description": "Visual communication, UX/UI, motion graphics, and creative writing.",
+      "subjects": [
+        "Design Principles",
+        "Typography",
+        "UX Research",
+        "Storytelling"
+      ],
+      "tags": ["Portfolio", "Figma", "Branding", "Animation"],
+      "sampleCareers": [
+        "UX Designer",
+        "Graphic Designer",
+        "Copywriter",
+        "Motion Designer"
+      ],
+      "careerIndustry": "Creative & Media",
+      "icon": "bi-palette",
+      "checklistUrl": "assets/checklists/design_stream_checklist.pdf"
+    },
+    {
+      "id": "vocational-trades",
+      "userType": "student",
+      "title": "Vocational & Skilled Trades",
+      "description": "Hands-on pathways with quick entry to jobs; combines apprenticeships and certifications.",
+      "subjects": ["Electrical", "Automotive", "Welding", "HVAC"],
+      "tags": ["Apprenticeship", "OSHA", "Certification"],
+      "sampleCareers": [
+        "Electrician",
+        "Automotive Technician",
+        "Welder",
+        "HVAC Tech"
+      ],
+      "careerIndustry": "Skilled Trades",
+      "icon": "bi-hammer",
+      "checklistUrl": "assets/checklists/vocational_stream_checklist.pdf"
+    },
+    {
+      "id": "business-entrepreneurship",
+      "userType": ["graduate", "professional"],
+      "title": "Business & Entrepreneurship",
+      "description": "Strategy, marketing, finance, and lean startup methods.",
+      "subjects": ["Accounting", "Marketing", "Operations", "Entrepreneurship"],
+      "tags": ["Pitch Deck", "Unit Economics", "MVP", "Fundraising"],
+      "sampleCareers": [
+        "Product Manager",
+        "Founder",
+        "Business Analyst",
+        "Growth Manager"
+      ],
+      "careerIndustry": "Business & Management",
+      "icon": "bi-briefcase",
+      "checklistUrl": "assets/checklists/business_stream_checklist.pdf"
+    },
+    {
+      "id": "data-analytics",
+      "userType": ["graduate", "professional"],
+      "title": "Data & Analytics",
+      "description": "Statistics, SQL, dashboards, and applied ML for business impact.",
+      "subjects": ["Statistics", "SQL", "Excel/Sheets", "Python (Pandas)"],
+      "tags": ["A/B Testing", "Dashboards", "ETL", "Storytelling"],
+      "sampleCareers": [
+        "Data Analyst",
+        "BI Analyst",
+        "Ops Analyst",
+        "Growth Analyst"
+      ],
+      "careerIndustry": "Analytics",
+      "icon": "bi-bar-chart",
+      "checklistUrl": "assets/checklists/data_analytics_checklist.pdf"
+    },
+    {
+      "id": "healthcare-admin",
+      "userType": ["graduate", "professional"],
+      "title": "Healthcare Administration",
+      "description": "Healthcare systems, compliance, patient flow, and operations.",
+      "subjects": ["Healthcare Policy", "Operations", "Compliance", "Quality"],
+      "tags": ["HIPAA", "EMR", "Lean", "Six Sigma"],
+      "sampleCareers": [
+        "Healthcare Admin",
+        "Clinic Manager",
+        "Quality Lead",
+        "Operations Supervisor"
+      ],
+      "careerIndustry": "Healthcare Management",
+      "icon": "bi-hospital",
+      "checklistUrl": "assets/checklists/health_admin_checklist.pdf"
+    },
+    {
+      "id": "media-communication",
+      "userType": ["student", "graduate"],
+      "title": "Media & Communication",
+      "description": "Digital media, content strategy, PR, and media analytics.",
+      "subjects": ["Content Strategy", "PR", "SEO Basics", "Analytics"],
+      "tags": ["Content Calendar", "Brand Voice", "Media Kit"],
+      "sampleCareers": [
+        "Content Strategist",
+        "PR Associate",
+        "Social Media Manager"
+      ],
+      "careerIndustry": "Media & Communications",
+      "icon": "bi-megaphone",
+      "checklistUrl": "assets/checklists/media_comm_checklist.pdf"
+    },
+    {
+      "id": "law-public-policy",
+      "userType": ["graduate", "professional"],
+      "title": "Law & Public Policy",
+      "description": "Legal fundamentals, constitutional law, policy design, and governance.",
+      "subjects": ["Constitutional Law", "Contracts", "Policy Analysis"],
+      "tags": ["Moot Court", "Research Memos", "Citations"],
+      "sampleCareers": ["Legal Associate", "Policy Fellow", "Paralegal"],
+      "careerIndustry": "Law & Policy",
+      "icon": "bi-balance-scale",
+      "checklistUrl": "assets/checklists/law_policy_checklist.pdf"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "plan-12-18",
+      "userType": ["student", "graduate", "professional"],
+      "title": "12–18 Months Before Intake",
+      "subtitle": "Explore destinations, budgets, and target programs.",
+      "actions": [
+        "Shortlist 5–8 programs aligned with your goals",
+        "Map tuition + living + buffer; compare ROI",
+        "Check eligibility (GPA, pre-reqs, work experience)",
+        "Create application calendar with deadlines"
+      ],
+      "documents": [
+        "Passport",
+        "Transcripts (provisional ok)",
+        "Initial CV/Resume draft"
+      ]
+    },
+    {
+      "id": "tests-10-12",
+      "userType": ["student", "graduate"],
+      "title": "10–12 Months: Tests & Prep",
+      "subtitle": "Book and prepare for language/standardized tests.",
+      "actions": [
+        "Register for IELTS/TOEFL/Duolingo English Test",
+        "For STEM/Business: Plan GRE/GMAT if required",
+        "Take diagnostic, set weekly study targets",
+        "Collect 2–3 academic/industry referees"
+      ],
+      "documents": ["Test bookings", "Study schedule", "Referee list"]
+    },
+    {
+      "id": "sop-lor-8-10",
+      "userType": ["student", "graduate", "professional"],
+      "title": "8–10 Months: SOP & LORs",
+      "subtitle": "Craft your story; secure recommendations.",
+      "actions": [
+        "Draft Statement of Purpose with clear goals",
+        "Prepare CV in ATS format",
+        "Request LORs with bullet highlights",
+        "Portfolio/GitHub for design/tech applicants"
+      ],
+      "documents": ["SOP drafts", "ATS resume", "Portfolio link"]
+    },
+    {
+      "id": "apps-6-8",
+      "userType": ["student", "graduate", "professional"],
+      "title": "6–8 Months: Submit Applications",
+      "subtitle": "Apply early for better scholarship odds.",
+      "actions": [
+        "Complete online forms & uploads",
+        "Pay application fees",
+        "Track each application status in a sheet",
+        "Attend program webinars/virtual open days"
+      ],
+      "documents": ["Official transcripts", "Score reports", "LOR PDFs"]
+    },
+    {
+      "id": "scholarships-5-7",
+      "userType": ["student", "graduate"],
+      "title": "5–7 Months: Scholarships & Funding",
+      "subtitle": "Target merit- and need-based options.",
+      "actions": [
+        "Apply to university and external scholarships",
+        "Draft scholarship essays (impact & need)",
+        "Ask mentors for feedback",
+        "Explore assistantships (TA/RA) for grad"
+      ],
+      "documents": ["Scholarship essay drafts", "Financial statements"]
+    },
+    {
+      "id": "offers-3-5",
+      "userType": ["student", "graduate", "professional"],
+      "title": "3–5 Months: Offers & Deposits",
+      "subtitle": "Compare offers; confirm seat.",
+      "actions": [
+        "Review conditions & deadlines",
+        "Calculate all-in costs with aid",
+        "Pay deposit; request CAS/I-20 where applicable",
+        "Start accommodation search"
+      ],
+      "documents": [
+        "Offer letters",
+        "Deposit receipts",
+        "CAS/I-20 (if applicable)"
+      ]
+    },
+    {
+      "id": "visa-2-3",
+      "userType": ["student", "graduate", "professional"],
+      "title": "2–3 Months: Visa & Compliance",
+      "subtitle": "Gather financials; book appointment.",
+      "actions": [
+        "Prepare bank statements & affidavits",
+        "Book biometrics/visa interview",
+        "Purchase health insurance",
+        "Scan & organize all PDFs to a single drive"
+      ],
+      "documents": [
+        "Bank statements",
+        "Visa forms",
+        "Insurance",
+        "Passport photos"
+      ]
+    },
+    {
+      "id": "travel-1-2",
+      "userType": ["student", "graduate", "professional"],
+      "title": "1–2 Months: Travel & Housing",
+      "subtitle": "Finalize logistics and pre-departure prep.",
+      "actions": [
+        "Book flights and temporary stay",
+        "Confirm housing contract",
+        "Pre-departure orientation checklist",
+        "Arrange airport pickup (if offered)"
+      ],
+      "documents": [
+        "Flight tickets",
+        "Accommodation contract",
+        "Arrival checklist"
+      ]
+    },
+    {
+      "id": "arrival-0-1",
+      "userType": ["student", "graduate", "professional"],
+      "title": "0–1 Month: Arrival & Registration",
+      "subtitle": "Get campus-ready; sort local essentials.",
+      "actions": [
+        "Complete registration & orientation",
+        "Open bank account, get local SIM",
+        "Collect student ID & transit pass",
+        "Understand academic integrity policies"
+      ],
+      "documents": ["Orientation schedule", "Local address proof"]
+    },
+    {
+      "id": "pro-tests-10-12",
+      "userType": "professional",
+      "title": "10–12 Months: Executive Exams (as needed)",
+      "subtitle": "GMAT Executive/English tests for mid-career programs.",
+      "actions": [
+        "Validate if tests are waived",
+        "Gather proof of experience for waivers",
+        "Executive resume and leadership portfolio"
+      ],
+      "documents": ["Executive CV", "Proof of work letters"]
+    },
+    {
+      "id": "professional-networking-6-9",
+      "userType": "professional",
+      "title": "6–9 Months: Targeted Networking",
+      "subtitle": "Align future roles with program outcomes.",
+      "actions": [
+        "Informational interviews with alumni",
+        "Refine leadership narratives",
+        "Short-term upskilling to close gaps"
+      ],
+      "documents": ["Networking tracker", "Learning plan"]
+    },
+    {
+      "id": "family-planning-3-6",
+      "userType": "professional",
+      "title": "3–6 Months: Family & Relocation",
+      "subtitle": "Plan dependents, schooling, and timelines.",
+      "actions": [
+        "Dependent visas (if applicable)",
+        "School search for children",
+        "Shipments & storage"
+      ],
+      "documents": ["Dependent docs", "School admission papers"]
+    }
+  ],
+  "interviews": [
+    {
+      "id": "beh-general",
+      "userType": ["student", "graduate", "professional"],
+      "title": "Behavioral — General",
+      "subtitle": "Use STAR, quantify outcomes, and reflect on learnings.",
+      "tags": ["STAR", "Culture Fit", "Teamwork"],
+      "tips": [
+        "Keep answers 1–2 minutes; avoid rambling.",
+        "Highlight your direct contribution and impact.",
+        "Prepare 4–5 strong STAR stories you can remix."
+      ],
+      "qas": [
+        {
+          "q": "Tell me about yourself.",
+          "hint": "60–90 sec; why you, why now",
+          "sample": "Engineer with 2 yrs in fintech; scaled payments by 40%..."
+        },
+        {
+          "q": "A time you handled conflict.",
+          "hint": "STAR; focus on resolution",
+          "sample": "Mediated priority conflict by quantifying impact..."
+        },
+        {
+          "q": "Biggest mistake & learning.",
+          "hint": "Ownership + mitigation",
+          "sample": "Shipped without full QA; introduced checklist and CI"
+        }
+      ]
+    },
+    {
+      "id": "fresh-grad-tech",
+      "userType": "graduate",
+      "title": "Technical — Fresh Grad (Software)",
+      "subtitle": "DSA foundations, code clarity, and testing.",
+      "tags": ["DSA", "Complexity", "Coding"],
+      "tips": [
+        "Narrate approach before coding.",
+        "Start with brute force, then optimize.",
+        "Write tests for edge cases."
+      ],
+      "qas": [
+        {
+          "q": "Two Sum variant",
+          "hint": "Hash map",
+          "sample": "Use map of value->index; O(n)"
+        },
+        {
+          "q": "Detect cycle in linked list",
+          "hint": "Floyd’s algo",
+          "sample": "Slow/fast pointers; O(n), O(1) space"
+        },
+        {
+          "q": "Explain Big-O of your solution",
+          "hint": "Time & space",
+          "sample": "Time O(n), space O(n) for map"
+        }
+      ]
+    },
+    {
+      "id": "pro-transition",
+      "userType": "professional",
+      "title": "Career Transition — Experienced",
+      "subtitle": "Translate previous wins to new domain outcomes.",
+      "tags": ["Transferable Skills", "Narrative"],
+      "tips": [
+        "Quantify impact with $$, %, time saved.",
+        "Map old responsibilities to new JD keywords.",
+        "Show quick learning via projects/certs."
+      ],
+      "qas": [
+        {
+          "q": "Why this change now?",
+          "hint": "Motivation + research",
+          "sample": "Observed X trend; upskilled; piloted project Y..."
+        },
+        {
+          "q": "Prove domain knowledge without title",
+          "hint": "Outcomes & artifacts",
+          "sample": "Launched POC; metrics improved Z%"
+        }
+      ]
+    },
+    {
+      "id": "product-sense",
+      "userType": ["graduate", "professional"],
+      "title": "Product Sense Basics",
+      "subtitle": "Users, problems, metrics, and trade-offs.",
+      "tags": ["Product Thinking", "Metrics", "Prioritization"],
+      "tips": [
+        "Define target user and JTBD before solutions.",
+        "Pick one north-star metric and 2 guardrails.",
+        "Call out risks and experiments."
+      ],
+      "qas": [
+        {
+          "q": "Improve onboarding for app X",
+          "hint": "JTBD + funnel",
+          "sample": "Hypothesize drop at step 2; test shorter form"
+        },
+        {
+          "q": "Pick a metric for feature Y",
+          "hint": "Leading vs lagging",
+          "sample": "Activation rate + 7-day retention"
+        }
+      ]
+    },
+    {
+      "id": "case-interview",
+      "userType": ["graduate", "professional"],
+      "title": "Case Interview — Consulting",
+      "subtitle": "Structure, MECE, and sanity checks.",
+      "tags": ["MECE", "Market Sizing", "Profitability"],
+      "tips": [
+        "Restate prompt and align on goal.",
+        "Draw a simple, MECE structure.",
+        "Do math out loud; round cleanly."
+      ],
+      "qas": [
+        {
+          "q": "Profit has dropped — diagnose",
+          "hint": "Revenue vs Cost tree",
+          "sample": "Price/volume mix; variable/fixed cost"
+        },
+        {
+          "q": "Market size for e-bikes",
+          "hint": "Top-down or bottom-up",
+          "sample": "Pop × adoption × price"
+        }
+      ]
+    },
+    {
+      "id": "admissions-interview",
+      "userType": ["student", "graduate"],
+      "title": "Academic Admissions Interview",
+      "subtitle": "Fit to program, readiness, and potential.",
+      "tags": ["SOP Alignment", "Research Fit"],
+      "tips": [
+        "Connect curriculum to your goals.",
+        "Discuss 1–2 faculty or labs of interest.",
+        "Reflect on resilience and growth."
+      ],
+      "qas": [
+        {
+          "q": "Why our program?",
+          "hint": "Courses + labs + outcomes",
+          "sample": "Course A + Lab B map to my goal of..."
+        },
+        {
+          "q": "Team project story",
+          "hint": "STAR + learning",
+          "sample": "Owned API integration; improved latency 30%"
+        }
+      ]
+    },
+    {
+      "id": "research-assistant",
+      "userType": "graduate",
+      "title": "Research Assistant Interview",
+      "subtitle": "Methodology, rigor, and writing.",
+      "tags": ["Literature Review", "Methods", "Reproducibility"],
+      "tips": [
+        "Summarize a recent paper’s method and limitations.",
+        "Explain your data cleaning & versioning approach.",
+        "Share a writing sample or poster."
+      ],
+      "qas": [
+        {
+          "q": "How do you handle missing data?",
+          "hint": "Contextual approach",
+          "sample": "MAR vs MCAR; imputation vs deletion"
+        }
+      ]
+    },
+    {
+      "id": "healthcare-int",
+      "userType": ["graduate", "professional"],
+      "title": "Healthcare Interview",
+      "subtitle": "Empathy, compliance, and safety.",
+      "tags": ["Patient First", "HIPAA", "Quality"],
+      "tips": [
+        "Use de-identified examples.",
+        "Tie actions to patient outcomes.",
+        "Safety mindset over speed."
+      ],
+      "qas": [
+        {
+          "q": "A time you managed a critical situation",
+          "hint": "SBAR + outcome",
+          "sample": "Escalated early; prevented adverse event"
+        }
+      ]
+    },
+    {
+      "id": "design-portfolio",
+      "userType": ["student", "graduate"],
+      "title": "Design Portfolio Review",
+      "subtitle": "Process, decisions, and iteration.",
+      "tags": ["UX Case Study", "Heuristics", "Accessibility"],
+      "tips": [
+        "Show problem framing and constraints.",
+        "Demonstrate user insights → decisions.",
+        "Call out trade-offs and alt explorations."
+      ],
+      "qas": [
+        {
+          "q": "Walk me through a project",
+          "hint": "Problem → Process → Outcome",
+          "sample": "Reduced drop-off 18% via IA overhaul"
+        }
+      ]
+    },
+    {
+      "id": "sales-interview",
+      "userType": ["graduate", "professional"],
+      "title": "Sales & GTM Interview",
+      "subtitle": "Pipeline, discovery, and objection handling.",
+      "tags": ["Discovery", "ICP", "Quota"],
+      "tips": [
+        "Quantify pipeline coverage and win rate.",
+        "Know your ICP and use cases.",
+        "Handle objections with proof points."
+      ],
+      "qas": [
+        {
+          "q": "How do you qualify leads?",
+          "hint": "BANT/MEDDICC",
+          "sample": "Budget, authority, timeline; next steps set"
+        }
+      ]
+    }
+  ],
+  "resume": [
+    {
+      "id": "resume-header",
+      "userType": ["student", "graduate", "professional"],
+      "title": "Header & Contact",
+      "subtitle": "Clean, ATS-friendly contact info at the top.",
+      "summary": "Use a single line: Name · Email · Phone · City · LinkedIn/GitHub/Portfolio.",
+      "dos": [
+        "Use a professional email and clear LinkedIn URL.",
+        "Add portfolio/GitHub for tech/design roles.",
+        "Include city & country (omit full address)."
+      ],
+      "donts": [
+        "No profile photo or graphics for ATS.",
+        "Avoid multiple phone numbers.",
+        "Don’t include sensitive personal details."
+      ],
+      "examples": [
+        {
+          "heading": "Good",
+          "text": "Aarav Sharma · aarav@proton.me · +91-98xxxxxxx · Bengaluru, IN · linkedin.com/in/aarav · github.com/aarav-sh"
+        }
+      ]
+    },
+    {
+      "id": "resume-summary",
+      "userType": ["graduate", "professional"],
+      "title": "Professional Summary",
+      "subtitle": "A 2–3 line value statement, not an objective.",
+      "summary": "Tailor to the JD; show scope, domain, and impact.",
+      "dos": [
+        "Mention years of experience and core stack.",
+        "Reference 1–2 quantified outcomes.",
+        "Add domain keywords (Fintech, Health, etc.)."
+      ],
+      "donts": [
+        "Avoid vague clichés (hard-working team player).",
+        "Do not repeat education here.",
+        "Skip personal hobbies unless relevant."
+      ],
+      "examples": [
+        {
+          "heading": "Example",
+          "text": "Data analyst (3+ yrs) in e-commerce; built SQL/BI dashboards used by 8 teams; drove 12% lift in weekly conversions via A/B tests."
+        }
+      ]
+    },
+    {
+      "id": "resume-education",
+      "userType": ["student", "graduate"],
+      "title": "Education",
+      "subtitle": "List most recent first; add highlights.",
+      "summary": "Add degree, institution, grad month/year, GPA (if strong), and 1–2 relevant courses or awards.",
+      "dos": [
+        "Include thesis/project if relevant to role.",
+        "Show top courses aligned to JD.",
+        "Add scholarships or honors."
+      ],
+      "donts": [
+        "Don’t list all coursework.",
+        "Avoid outdated school achievements.",
+        "Don’t exceed 3–4 lines per entry."
+      ],
+      "examples": [
+        {
+          "heading": "Undergrad",
+          "text": "B.Tech, Computer Science — NIT Trichy · 2025 · GPA 8.6/10 · Courses: DS&A, DBMS, ML · Merit Scholarship"
+        }
+      ]
+    },
+    {
+      "id": "resume-experience",
+      "userType": ["graduate", "professional"],
+      "title": "Experience",
+      "subtitle": "Impact bullets with strong verbs and metrics.",
+      "summary": "3–5 bullets per role; each bullet = action + metric + outcome.",
+      "dos": [
+        "Start with verbs: Led, Built, Automated, Reduced.",
+        "Quantify with %, time, cost, or revenue.",
+        "Group related wins; keep tense consistent."
+      ],
+      "donts": [
+        "Don’t describe responsibilities without outcomes.",
+        "Avoid first-person pronouns.",
+        "Don’t bury top wins in the middle."
+      ],
+      "examples": [
+        {
+          "heading": "Bullet",
+          "text": "Built ETL in Python to consolidate 5 sources; reduced reporting time by 70% (2h → 36m) and improved data freshness to <15m."
+        }
+      ]
+    },
+    {
+      "id": "resume-projects",
+      "userType": ["student", "graduate"],
+      "title": "Projects",
+      "subtitle": "Showcase relevant, recent, and shipped work.",
+      "summary": "2–3 projects with links; call out users, stack, and results.",
+      "dos": [
+        "Provide links (GitHub, demo, Figma).",
+        "Quantify users, latency, or accuracy improvements.",
+        "Explain your unique contribution."
+      ],
+      "donts": [
+        "Don’t list unfinished ideas.",
+        "Avoid overly academic jargon.",
+        "Don’t omit role if team project."
+      ],
+      "examples": [
+        {
+          "heading": "Example",
+          "text": "Smart Notes (React/Flask): semantic search over 2k notes; 350 MAU; reduced lookup time by 60%."
+        }
+      ]
+    },
+    {
+      "id": "resume-skills",
+      "userType": ["student", "graduate", "professional"],
+      "title": "Skills",
+      "subtitle": "Group by category; be honest about level.",
+      "summary": "Keep it scannable; prefer 2–3 columns grouped by category.",
+      "dos": [
+        "Group: Languages, Frameworks, Tools, Cloud.",
+        "Add level tags sparingly (Advanced/Intermediate).",
+        "Match keywords from the JD."
+      ],
+      "donts": [
+        "Avoid long comma lists with duplicates.",
+        "No fake proficiency; you may be tested.",
+        "Don’t include obsolete tech unless relevant."
+      ],
+      "examples": [
+        {
+          "heading": "Grouping",
+          "text": "Languages: Python, JS · Data: SQL, Pandas · Cloud: GCP (BQ) · Tools: Git, Docker, Airflow"
+        }
+      ]
+    },
+    {
+      "id": "resume-achievements",
+      "userType": ["student", "graduate", "professional"],
+      "title": "Achievements & Certifications",
+      "subtitle": "Only high-signal items from the last 3–5 years.",
+      "summary": "Show ranked wins, publications, or relevant certs.",
+      "dos": [
+        "Add rank/percentile if impressive.",
+        "Include vendor and year for certs.",
+        "Link to publications or DOIs."
+      ],
+      "donts": [
+        "Don’t list generic participation certificates.",
+        "Avoid long certification dumps.",
+        "Do not include expired certs."
+      ],
+      "examples": [
+        { "heading": "Cert", "text": "Google Data Analytics (2024)" },
+        {
+          "heading": "Award",
+          "text": "Hackathon Winner (120+ teams), DevFest 2024"
+        }
+      ]
+    },
+    {
+      "id": "resume-formatting",
+      "userType": ["student", "graduate", "professional"],
+      "title": "Formatting & ATS",
+      "subtitle": "One page (early career), clean fonts, and consistent spacing.",
+      "summary": "Use simple bullets, 10–11pt body, and 0.5–0.75in margins.",
+      "dos": [
+        "Export to PDF; test with plain-text paste.",
+        "Use consistent mm/dd/yyyy or Mon YYYY format.",
+        "Name file like First_Last_Role.pdf"
+      ],
+      "donts": [
+        "No tables, images, or multi-column for ATS.",
+        "Avoid headers/footers that hide text.",
+        "Don’t exceed 2 pages unless truly senior."
+      ],
+      "examples": [
+        { "heading": "Filename", "text": "Neha_Kapoor_Data_Analyst.pdf" }
+      ]
+    }
+  ]
+}

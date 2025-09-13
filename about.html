@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About — NextStep Navigator</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/about.css" />
+    <style></style>
+  </head>
+  <body data-page="about">
+    <nav class="navbar navbar-expand-lg border-bottom sticky-top reveal">
+      <div class="container py-2">
+        <a
+          class="navbar-brand fw-bold d-flex align-items-center gap-2"
+          href="index.html"
+        >
+          <span class="brand-dot"></span> NextStep
+          <span class="text-primary">Navigator</span>
+        </a>
+        <div class="ms-auto d-flex align-items-center gap-3">
+          <span class="small text-muted" id="helloUser"></span>
+          <a class="btn btn-outline-secondary btn-sm ripple" href="index.html"
+            ><i class="bi bi-house me-1"></i> Home</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <header class="page-head py-4 reveal">
+      <div class="sparkles" aria-hidden="true"></div>
+      <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-2">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">About</li>
+          </ol>
+        </nav>
+        <div
+          class="d-flex flex-column flex-md-row align-items-md-end align-items-start justify-content-between gap-3"
+        >
+          <div>
+            <h1 class="mb-1">About NextStep Navigator</h1>
+            <p class="lead lead-muted mb-0">
+              A responsive, static Website that helps learners explore
+              careers—built by <strong>Yemen Developers</strong> in Sana’a.
+            </p>
+          </div>
+          <span class="chip"
+            ><i class="bi bi-shield-lock"></i> No server storage • Static
+            JSON</span
+          >
+        </div>
+      </div>
+    </header>
+
+    <main class="py-4">
+      <div class="container">
+        <div class="row g-4">
+          <section class="col-lg-8">
+            <div class="panel p-3 p-md-4 reveal">
+              <div class="d-flex align-items-start gap-3">
+                <div class="icon-pill"><i class="bi bi-compass"></i></div>
+                <div>
+                  <h5 class="mb-1">Mission</h5>
+                  <p class="mb-2">
+                    Help students, graduates, and working professionals make
+                    informed career choices through a simple, attractive, and
+                    self-guided experience.
+                  </p>
+                  <div class="small muted">
+                    This project originated from the need stated in the SRS:
+                    despite plenty of information online, users lack a
+                    structured, easy-to-navigate portal for career discovery.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel p-3 p-md-4 mt-3 reveal">
+              <h5 class="mb-2">Scope & Feature Map</h5>
+              <p class="muted">
+                Everything below is implemented as a static SPA-style site. Data
+                is read from JSON/TXT only.
+              </p>
+              <div class="row g-3" id="featureGrid">
+                <div class="col-md-6">
+                  <div class="feature-card p-3 h-100">
+                    <h6 class="mb-1">
+                      <i class="bi bi-house-door me-1"></i> Home &
+                      Personalization
+                    </h6>
+                    <ul class="list-tight small mb-0">
+                      <li>
+                        Animated hero, greeting with name + user type (session
+                        only).
+                      </li>
+                      <li>
+                        Tailored menu for
+                        <em>Student / Graduate / Professional</em>.
+                      </li>
+                      <li>
+                        Visitor counter, real-time clock, and geolocation
+                        (coords).
+                      </li>
+                      <li>Recently viewed & bookmarks (localStorage).</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feature-card p-3 h-100">
+                    <h6 class="mb-1">
+                      <i class="bi bi-briefcase me-1"></i> Career Bank
+                    </h6>
+                    <ul class="list-tight small mb-0">
+                      <li>
+                        JSON-driven cards: title, description/education, skills,
+                        salary range, icon.
+                      </li>
+                      <li>
+                        Filter by industry, search by keywords, sort by
+                        salary/name.
+                      </li>
+                      <li>Grid/List views, quick view, bookmark careers.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feature-card p-3 h-100">
+                    <h6 class="mb-1">
+                      <i class="bi bi-ui-checks-grid me-1"></i> Interest-Based
+                      Quiz
+                    </h6>
+                    <ul class="list-tight small mb-0">
+                      <li>
+                        Question packs per interest; scores → streams →
+                        suggested careers.
+                      </li>
+                      <li>
+                        Review answers, export results, add recommendations to
+                        bookmarks.
+                      </li>
+                      <li>No data saved unless user exports.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feature-card p-3 h-100">
+                    <h6 class="mb-1">
+                      <i class="bi bi-camera-reels me-1"></i> Multimedia
+                      Guidance
+                    </h6>
+                    <ul class="list-tight small mb-0">
+                      <li>
+                        YouTube <span class="kbd">nocookie</span> embeds &
+                        audio, filterable by user type/category.
+                      </li>
+                      <li>Search, sort, pagination; transcripts panel.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feature-card p-3 h-100">
+                    <h6 class="mb-1">
+                      <i class="bi bi-stars me-1"></i> Success Stories
+                    </h6>
+                    <ul class="list-tight small mb-0">
+                      <li>Inspiration library with tags, domains, and year.</li>
+                      <li>Expandable stories and related suggestions.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feature-card p-3 h-100">
+                    <h6 class="mb-1">
+                      <i class="bi bi-journal-text me-1"></i> Resource Library
+                    </h6>
+                    <ul class="list-tight small mb-0">
+                      <li>Articles, eBooks, checklists, webinars.</li>
+                      <li>
+                        Search/filter/sort; JSON with graceful fallback data.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feature-card p-3 h-100">
+                    <h6 class="mb-1">
+                      <i class="bi bi-mortarboard me-1"></i> Admissions &
+                      Coaching
+                    </h6>
+                    <ul class="list-tight small mb-0">
+                      <li>
+                        Stream selection (post-10th), study-abroad timeline,
+                        interviews, resume.
+                      </li>
+                      <li>Downloadable checklists and sample Q&A (static).</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feature-card p-3 h-100">
+                    <h6 class="mb-1">
+                      <i class="bi bi-chat-dots me-1"></i> Feedback, Contact &
+                      About
+                    </h6>
+                    <ul class="list-tight small mb-0">
+                      <li>
+                        Feedback form (UI only, no submit), Contact with Sana’a
+                        offices + map.
+                      </li>
+                      <li>This About page with SRS mapping and disclosures.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel p-3 p-md-4 mt-3 reveal">
+              <h5 class="mb-2">Non-Functional Compliance</h5>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <ul class="list-tight small mb-0">
+                    <li>
+                      <strong>Safe to use:</strong> No file uploads/downloads
+                      unless user exports text.
+                    </li>
+                    <li>
+                      <strong>Accessible:</strong> Clear labels, breadcrumb,
+                      focusable cards, alt text on imagery.
+                    </li>
+                    <li>
+                      <strong>User-friendly:</strong> Consistent layout, hover
+                      cues, concise copy.
+                    </li>
+                    <li>
+                      <strong>Operability & Performance:</strong> Lightweight
+                      Bootstrap, no heavy libs.
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <ul class="list-tight small mb-0">
+                    <li>
+                      <strong>Capacity & Availability:</strong> Static hosting
+                      compatible (CDN, GitHub Pages).
+                    </li>
+                    <li>
+                      <strong>Compatibility:</strong> Modern evergreen browsers.
+                    </li>
+                    <li>
+                      <strong>Privacy:</strong> Session/local storage only; no
+                      network writes.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel p-3 p-md-4 mt-3 reveal">
+              <h5 class="mb-2">Technology & Data</h5>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="feature-card p-3 h-100">
+                    <h6 class="mb-1">
+                      <i class="bi bi-code-slash me-1"></i> Frontend
+                    </h6>
+                    <ul class="list-tight small mb-0">
+                      <li>
+                        HTML5, CSS3, JavaScript (ES Modules not required).
+                      </li>
+                      <li>Bootstrap 5 + Bootstrap Icons.</li>
+                      <li>
+                        Custom shared utility file:
+                        <code>js/nsn-shared.js</code>.
+                      </li>
+                      <li>
+                        Optional: You can rebuild as React later; current build
+                        is static.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feature-card p-3 h-100">
+                    <h6 class="mb-1">
+                      <i class="bi bi-database me-1"></i> Data Sources
+                    </h6>
+                    <ul class="list-tight small mb-0">
+                      <li>
+                        JSON files in <code>/data</code> (careers, quiz,
+                        multimedia, resources, stories, admissions).
+                      </li>
+                      <li>Text exports for bookmarks/quiz results.</li>
+                      <li>No write-backs; aligns with SRS constraints.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel p-3 p-md-4 mt-3 reveal">
+              <h5 class="mb-3">The Team — Yemen Developers (Sana’a)</h5>
+              <div class="row g-3" id="teamGrid">
+                <div class="col-sm-6">
+                  <div
+                    class="feature-card p-3 h-100 d-flex gap-3 align-items-center"
+                  >
+                    <img
+                      class="avatar"
+                      src="assets/images/loay-nasher.jpg"
+                      alt="Portrait of Loay Nasher"
+                      onerror="this.src='assets/team/placeholder.jpg'"
+                    />
+                    <div>
+                      <div class="fw-semibold">Loay Nasher</div>
+                      <div class="small muted">Developer</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div
+                    class="feature-card p-3 h-100 d-flex gap-3 align-items-center"
+                  >
+                    <img
+                      class="avatar"
+                      src="assets/images/alshreef-alradhi.jpg"
+                      alt="Portrait of Alshreef Alradhi"
+                      onerror="this.src='assets/team/placeholder.jpg'"
+                    />
+                    <div>
+                      <div class="fw-semibold">Alshreef Alradhi</div>
+                      <div class="small muted">Developer</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div
+                    class="feature-card p-3 h-100 d-flex gap-3 align-items-center"
+                  >
+                    <img
+                      class="avatar"
+                      src="assets/images/bakil-dahan.jpg"
+                      alt="Portrait of Bakil Dahan"
+                      onerror="this.src='assets/team/placeholder.jpg'"
+                    />
+                    <div>
+                      <div class="fw-semibold">Bakil Dahan</div>
+                      <div class="small muted">Developer</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div
+                    class="feature-card p-3 h-100 d-flex gap-3 align-items-center"
+                  >
+                    <img
+                      class="avatar"
+                      src="assets/images/osama-almuhaia.jpg"
+                      alt="Portrait of Osama Almuhaia"
+                      onerror="this.src='assets/team/placeholder.jpg'"
+                    />
+                    <div>
+                      <div class="fw-semibold">Osama Almuhaia</div>
+                      <div class="small muted">Developer</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div
+                    class="feature-card p-3 h-100 d-flex gap-3 align-items-center"
+                  >
+                    <img
+                      class="avatar"
+                      src="assets/images/ali-bamatref.jpg"
+                      alt="Portrait of Ali Bamatref"
+                      onerror="this.src='assets/team/placeholder.jpg'"
+                    />
+                    <div>
+                      <div class="fw-semibold">Ali Bamatref</div>
+                      <div class="small muted">Developer</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div
+                    class="feature-card p-3 h-100 d-flex gap-3 align-items-center"
+                  >
+                    <img
+                      class="avatar"
+                      src="assets/images/abdulwali-hasan.jpg"
+                      alt="Portrait of AbdulWali Hasan"
+                      onerror="this.src='assets/team/placeholder.jpg'"
+                    />
+                    <div>
+                      <div class="fw-semibold">AbdulWali Hasan</div>
+                      <div class="small muted">Developer</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="small muted mt-2">
+                Photos optional. If AI-generated images are used for
+                placeholders, disclose: “Some images on this page were generated
+                with AI for illustration.”
+              </div>
+            </div>
+
+            <div class="panel p-3 p-md-4 mt-3 reveal">
+              <h5 class="mb-2">Accessibility & Privacy</h5>
+              <ul class="list-tight small mb-0">
+                <li>
+                  Readable color contrast, focus-visible states, semantic
+                  headings.
+                </li>
+                <li>
+                  Alt text on team images; skip-to-content link on long pages.
+                </li>
+                <li>
+                  No personal data is sent to a server. Personalization uses
+                  <code>sessionStorage</code> and
+                  <code>localStorage</code> only.
+                </li>
+                <li>
+                  YouTube embeds use the privacy-enhanced
+                  <code>youtube-nocookie.com</code> domain.
+                </li>
+              </ul>
+            </div>
+
+            <div class="panel p-3 p-md-4 mt-3 reveal">
+              <div class="d-flex align-items-start gap-3">
+                <div class="icon-pill"><i class="bi bi-tag"></i></div>
+                <div>
+                  <h5 class="mb-1">Version & Changelog</h5>
+                  <div class="small">
+                    Current:
+                    <span class="badge badge-soft">v1.0 (Career Passport)</span>
+                  </div>
+                  <ul class="list-tight small mt-2 mb-0">
+                    <li>
+                      <strong>v1.0:</strong> Initial static release per SRS —
+                      all modules present, JSON datasets linked, responsive UI.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature-card p-3 p-md-4 mt-3 reveal">
+              <div
+                class="d-flex flex-column flex-md-row align-items-md-center align-items-start justify-content-between gap-3"
+              >
+                <div>
+                  <h5 class="mb-1">Want to collaborate or suggest content?</h5>
+                  <div class="small muted">
+                    We welcome new resources and stories from schools and career
+                    centers.
+                  </div>
+                </div>
+                <div class="d-flex flex-wrap gap-2">
+                  <a class="btn btn-primary btn-sm ripple" href="contact.html"
+                    ><i class="bi bi-envelope me-1"></i> Contact Yemen
+                    Developers</a
+                  >
+                  <a
+                    class="btn btn-outline-primary btn-sm ripple"
+                    href="feedback.html"
+                    ><i class="bi bi-chat-dots me-1"></i> Send Feedback</a
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <aside class="col-lg-4">
+            <div class="panel p-3 reveal" data-reveal="right">
+              <h6 class="mb-2">Project Summary</h6>
+              <ul class="small list-tight mb-0">
+                <li><strong>Theme:</strong> Career Passport</li>
+                <li><strong>Category:</strong> Responsive NextGen Website</li>
+                <li>
+                  <strong>Type:</strong> Single-Page-style, multi-section static
+                  site
+                </li>
+                <li><strong>Org:</strong> Yemen Developers (Sana’a)</li>
+              </ul>
+            </div>
+
+            <div class="panel p-3 mt-3 reveal" data-reveal="right">
+              <h6 class="mb-2">Recently Viewed</h6>
+              <ul id="recentList" class="list-unstyled small mb-0">
+                <li class="text-muted">Nothing yet.</li>
+              </ul>
+            </div>
+
+            <div class="panel p-3 mt-3 reveal" data-reveal="right">
+              <h6>Your Bookmarks</h6>
+              <ul id="bookmarkList" class="list-unstyled small mb-2">
+                <li class="text-muted">No bookmarks yet.</li>
+              </ul>
+              <div class="d-flex gap-2">
+                <button
+                  class="btn btn-outline-primary btn-sm ripple"
+                  id="exportBookmarks"
+                >
+                  <i class="bi bi-arrow-down-square me-1"></i> Export
+                </button>
+                <button
+                  class="btn btn-outline-danger btn-sm ripple"
+                  id="clearBookmarks"
+                >
+                  <i class="bi bi-trash3 me-1"></i> Clear
+                </button>
+              </div>
+            </div>
+
+            <div class="panel p-3 mt-3 reveal" data-reveal="right">
+              <h6 class="mb-2">Key Pages</h6>
+              <div class="d-grid gap-2">
+                <a
+                  class="btn btn-outline-primary btn-sm ripple"
+                  href="careers.html"
+                  ><i class="bi bi-briefcase me-1"></i> Career Bank</a
+                >
+                <a
+                  class="btn btn-outline-primary btn-sm ripple"
+                  href="quiz.html"
+                  ><i class="bi bi-ui-checks-grid me-1"></i> Interest Quiz</a
+                >
+                <a
+                  class="btn btn-outline-primary btn-sm ripple"
+                  href="resources.html"
+                  ><i class="bi bi-journal-text me-1"></i> Resource Library</a
+                >
+                <a
+                  class="btn btn-outline-primary btn-sm ripple"
+                  href="admissions.html"
+                  ><i class="bi bi-mortarboard me-1"></i> Admissions &
+                  Coaching</a
+                >
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </main>
+
+    <footer class="py-4 border-top bg-white reveal">
+      <div
+        class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-2"
+      >
+        <div class="small text-muted">
+          © <span id="year"></span> NextStep Navigator • About
+        </div>
+        <div class="small">
+          <a href="about.html" aria-current="page" class="me-3">About</a
+          ><a class="ripple" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/nsn-shared.js"></script>
+    <script src="js/about.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script></script>
+  </body>
+</html>

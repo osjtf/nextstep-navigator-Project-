@@ -1,0 +1,413 @@
+[
+  {
+    "id": "s-101",
+    "name": "Diana Trujillo",
+    "title": "Aerospace Engineer → JPL/Mars Perseverance Team",
+    "domain": "technology",
+    "userType": "professional",
+    "year": 2021,
+    "date": "2021-02-18",
+    "summary": "Colombian-born engineer who worked on NASA’s Perseverance rover and hosted its Spanish landing broadcast.",
+    "story": "After immigrating to the U.S., Trujillo studied aerospace engineering, joined NASA JPL, worked on Mars rover components, and led broad outreach by hosting NASA’s first-ever Spanish landing show for Perseverance.",
+    "tags": ["NASA", "Perseverance", "outreach"],
+    "photo": "https://imgs.search.brave.com/iC0L5T5zBQINUr32MgyC6o1wOoar53mI_2c7GZodMk4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTA5/NTEwMTkwNC9waG90/by9kaWFuYS10cnVq/aWxsby1tYXJzLTIw/MjAtYXJtLXNjaWVu/Y2Utc3VyZmFjZS1w/aGFzZS1sZWFkLWF0/LXRoZS1uYXNhLWpl/dC1wcm9wdWxzaW9u/LWxhYm9yYXRvcnku/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PUJERERya1RYQTFt/al9fN3A0NEI3eGFR/bTRWUUhEamwtVDFE/QUU2VnY2bFU9",
+    "links": [
+      {
+        "label": "Smithsonian profile",
+        "url": "https://www.smithsonianmag.com/innovation/diana-trujillo-latinx-aerospace-engineer-nasa-perseverance-180977050/"
+      },
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Diana_Trujillo"
+      }
+    ]
+  },
+  {
+    "id": "s-102",
+    "name": "Maryam Mirzakhani",
+    "title": "Mathematician → First Woman to Win the Fields Medal",
+    "domain": "science",
+    "userType": "professional",
+    "year": 2014,
+    "date": "2014-08-12",
+    "summary": "Made history as the first woman to receive the Fields Medal for work in geometry and dynamical systems.",
+    "story": "The Stanford professor’s breakthroughs in Riemann surfaces and moduli spaces earned mathematics’ top honor.",
+    "tags": ["Fields Medal", "geometry"],
+    "photo": "https://imgs.search.brave.com/Muh3tXyZlRSNkL8z0AHrJvlG4RqEFuKGr8C82eHxnWE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/d2FsbHBhcGVyc2Fm/YXJpLmNvbS80OC83/My9DWVVUczIuanBn",
+    "links": [
+      {
+        "label": "Fields Medal announcement",
+        "url": "https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2014"
+      },
+      {
+        "label": "Stanford memorial",
+        "url": "https://news.stanford.edu/2017/07/15/maryam-mirzakhani-stanford-mathematician-dies/"
+      }
+    ]
+  },
+  {
+    "id": "s-103",
+    "name": "Fei-Fei Li",
+    "title": "AI Researcher → Creator of ImageNet",
+    "domain": "technology",
+    "userType": "professional",
+    "year": 2009,
+    "date": "2009-06-01",
+    "summary": "Led the ImageNet dataset that catalyzed modern deep-learning vision breakthroughs.",
+    "story": "Li and collaborators released ImageNet (2009); the 2012 AlexNet result on ImageNet signaled the deep-learning surge.",
+    "tags": ["AI", "ImageNet", "vision"],
+    "photo": "https://imgs.search.brave.com/57h-oJeocBoZ6HAtyeABJbT5YnogF0b62CRkMsFGOmc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9haS00/LWFsbC5vcmcvd3At/Y29udGVudC91cGxv/YWRzLzIwMjQvMTEv/RmVpLUZlaS1MaS5q/cGc",
+    "links": [
+      {
+        "label": "Stanford HAI bio",
+        "url": "https://hai.stanford.edu/people/fei-fei-li"
+      },
+      {
+        "label": "ImageNet paper (IJCV 2015)",
+        "url": "https://link.springer.com/article/10.1007/s11263-015-0816-y"
+      }
+    ]
+  },
+  {
+    "id": "s-104",
+    "name": "Linus Torvalds",
+    "title": "Student → Creator of Linux",
+    "domain": "technology",
+    "userType": "student",
+    "year": 1991,
+    "date": "1991-08-25",
+    "summary": "As a student, announced a hobby OS that became Linux, powering servers, Android, and more.",
+    "story": "Torvalds’ 1991 Usenet post (“just a hobby…”) launched Linux; today it underpins global computing.",
+    "tags": ["open-source", "Linux"],
+    "photo": "https://imgs.search.brave.com/RR4StwO9Cq00C-mjhzEfYo5loSrgb-gCD0qTCw6BL_M/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9i/L2IxL0xpbnV4Q29u/X0V1cm9wZV9MaW51/c19Ub3J2YWxkc18w/NS5qcGc",
+    "links": [
+      {
+        "label": "Original Usenet message",
+        "url": "https://www.cs.cmu.edu/~awb/linux.history.html"
+      },
+      {
+        "label": "Biography",
+        "url": "https://en.wikipedia.org/wiki/Linus_Torvalds"
+      }
+    ]
+  },
+  {
+    "id": "s-105",
+    "name": "Katherine Johnson",
+    "title": "Mathematician → NASA Trajectory Expert",
+    "domain": "science",
+    "userType": "professional",
+    "year": 1962,
+    "date": "1962-02-20",
+    "summary": "Calculated orbital trajectories for John Glenn’s Friendship 7 and supported Apollo missions.",
+    "story": "Johnson’s manual calculations verified the computer’s numbers for Glenn’s mission—a pivotal moment in early spaceflight.",
+    "tags": ["NASA", "orbital-mechanics"],
+    "photo": "https://imgs.search.brave.com/eO74478NsIFlagm8wrRJD30csHrKn6RoIlTDUt89ic0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGFrZXNoYXBl/LmlvL2ZkMTk0ZGI3/LTdiMjUtNGI1YS04/Y2M3LWRhN2YzMWZh/YjQ3NS9kZXYvYzNh/ODUxODktZWRjMy00/Njg0LThjYzEtZWU1/MGY2YjMyMTk1L0xS/Qy0xOTY2LUI3MDFf/UC0wNjcxN19sYXJn/ZS5qcGc_YXV0bz1j/b21wcmVzcyxmb3Jt/YXQmY3JvcD1mYWNl/cyZmaXQ9Y3JvcCZm/bT1qcGcmaD0zNjAm/cT03MCZ3PTU0MA",
+    "links": [
+      {
+        "label": "NASA biography",
+        "url": "https://www.nasa.gov/content/katherine-johnson-biography"
+      }
+    ]
+  },
+  {
+    "id": "s-106",
+    "name": "Peter Pronovost",
+    "title": "Intensivist → Central-Line Checklist Pioneer",
+    "domain": "healthcare",
+    "userType": "professional",
+    "year": 2006,
+    "date": "2006-12-28",
+    "summary": "A simple ICU checklist sharply reduced central-line infections in a multi-hospital study.",
+    "story": "The Michigan Keystone ICU project showed dramatic drops in line infections after adopting a five-step checklist.",
+    "tags": ["patient-safety", "checklists"],
+    "photo": "https://imgs.search.brave.com/swblbwlgNaeFEyN8VIWQ6FB4OtNDVPF0bOVeLHIikcM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5tdWNrcmFjay5j/b20vcHJvZmlsZS9p/bWFnZXMvMjM2ODk5/L3BldGVyLXByb25v/dm9zdC5qcGVnLjI1/NngyNTZfcTEwMF9j/cm9wLXNtYXJ0Lmpw/Zw",
+    "links": [
+      {
+        "label": "NEJM study",
+        "url": "https://www.nejm.org/doi/full/10.1056/nejmsa061115"
+      }
+    ]
+  },
+  {
+    "id": "s-107",
+    "name": "WHO Surgical Safety Checklist (Gawande et al.)",
+    "title": "Surgeon → Global Safety Impact",
+    "domain": "healthcare",
+    "userType": "professional",
+    "year": 2009,
+    "date": "2009-01-29",
+    "summary": "Surgical checklist reduced complications and deaths across diverse hospitals.",
+    "story": "The WHO 19-item checklist trial across eight hospitals cut morbidity and mortality; it’s now standard in many systems.",
+    "tags": ["global-health", "quality"],
+    "photo": "https://imgs.search.brave.com/QdAjeCJdWK69tOQ5FJL75H1uaJah8T3Ii5G7krWGCr0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9wdWJh/ZHMuZy5kb3VibGVj/bGljay5uZXQvZ2Ft/cGFkL2FkP2l1PS8y/NzA2MDQ5ODIvYm1j/L2JtY2hlYWx0aHNl/cnZyZXMvYXJ0aWNs/ZXMmc3o9MzAweDI1/MCZwb3M9TVBVMSZk/b2k9MTAuMTE4Ni9z/MTI5MTMtMDIxLTA3/MTMwLTgmdHlwZT1h/cnRpY2xlJmt3cmQ9/U3VyZ2ljYWwlMjBz/YWZldHklMjBjaGVj/a2xpc3QsUGF0aWVu/dCUyMHNhZmV0eSxP/cGVyYXRpbmclMjBy/b29tLEd5bmVjb2xv/Z2lzdHMsQW5lc3Ro/ZXNpb2xvZ2lzdHMs/T3BlcmF0aW5nJTIw/cm9vbSUyMHJlZ2lz/dGVyZWQlMjBudXJz/ZXMmcG1jPUgyNzAw/MixIMjcwMzAsSDI4/MDA5LEg0MTAzMCY",
+    "links": [
+      {
+        "label": "NEJM multi-country trial",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMsa0810119"
+      }
+    ]
+  },
+  {
+    "id": "s-108",
+    "name": "Temple Grandin",
+    "title": "Animal Scientist → Humane Facility Designer",
+    "domain": "science",
+    "userType": "professional",
+    "year": 1980,
+    "date": "1980-06-01",
+    "summary": "Pioneered livestock-handling systems that reduce animal stress; widely adopted in industry.",
+    "story": "Grandin’s behavioral designs and specs became influential standards in slaughter plants and stockyards.",
+    "tags": ["animal-behavior", "design"],
+    "photo": "https://imgs.search.brave.com/ba8Jo8WJy-QWwgGaod9DF9xggGgLuAOX-oTWN_ZRBZE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/Zi9mZC9UZW1wbGVn/cmFuZGluLmpwZy8y/NTBweC1UZW1wbGVn/cmFuZGluLmpwZw",
+    "links": [
+      {
+        "label": "1980 design paper",
+        "url": "https://www.wellbeingintlstudiesrepository.org/acwp_faafp/16/"
+      },
+      { "label": "Official site", "url": "https://www.grandin.com/" }
+    ]
+  },
+  {
+    "id": "s-109",
+    "name": "Sara Blakely",
+    "title": "Sales Rep → Spanx Founder",
+    "domain": "business",
+    "userType": "professional",
+    "year": 2000,
+    "date": "2000-10-01",
+    "summary": "Turned $5,000 savings and a DIY patent into a global shapewear brand.",
+    "story": "Cut the feet off pantyhose, wrote her own patent, and bootstrapped Spanx into a consumer phenomenon.",
+    "tags": ["entrepreneurship", "consumer"],
+    "photo": "https://imgs.search.brave.com/HN6xIxQ40f2OaOrLB6sYMGJ2nUg_AzeaT8nsCdMeXcI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLmlu/c2lkZXIuY29tLzY1/ZDc2YzdhZjUzM2Iw/MzlhODg1ZjUzZD93/aWR0aD03MDA",
+    "links": [
+      {
+        "label": "Britannica bio",
+        "url": "https://www.britannica.com/money/Sara-Blakely"
+      },
+      {
+        "label": "Inc. first-person origin",
+        "url": "https://www.inc.com/sara-blakely/how-sara-blakley-started-spanx.html"
+      }
+    ]
+  },
+  {
+    "id": "s-110",
+    "name": "Sir James Dyson",
+    "title": "Designer → Global Hardware Innovator",
+    "domain": "engineering",
+    "userType": "professional",
+    "year": 1993,
+    "date": "1993-01-01",
+    "summary": "After ~5,000 prototypes, launched cyclonic bagless vacuums and built a design-led firm.",
+    "story": "Persistence and engineering rigor led to the G-Force and later Dyson’s product family and R&D culture.",
+    "tags": ["hardware", "R&D", "industrial-design"],
+    "photo": "https://imgs.search.brave.com/aYT-r6PPSiZ-lL33K60XDfW0-GnUHRjcX7tnr9CBU94/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/c2h1dHRlcnN0b2Nr/LmNvbS9wcmV2aWV3/LTQ0MC85OTEwMDA0/YS8zM2Y0Mjc0ZC9T/aHV0dGVyc3RvY2tf/OTkxMDAwNGEuanBn",
+    "links": [
+      {
+        "label": "Wired profile",
+        "url": "https://www.wired.com/2012/11/mf-james-dyson"
+      },
+      { "label": "Company bio", "url": "https://www.dyson.com/james-dyson" }
+    ]
+  },
+  {
+    "id": "s-111",
+    "name": "Whitney Wolfe Herd",
+    "title": "Founder & CEO → Bumble IPO",
+    "domain": "business",
+    "userType": "professional",
+    "year": 2021,
+    "date": "2021-02-11",
+    "summary": "Took Bumble public; widely reported as the youngest self-made female billionaire at IPO.",
+    "story": "Built a women-first product and brand; IPO marked a milestone in tech leadership representation.",
+    "tags": ["consumer-tech", "IPO"],
+    "photo": "https://imgs.search.brave.com/_H2JUS1mKlyUJXhbQXagkPVLjLHRgcMYDR_IYkYzs2g/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk5UZzJPVGMz/TkRJdE1tSXlNaTAw/TjJGakxUaGtNRFF0/WlRBeFl6TXlNbU16/TkRrM1hrRXlYa0Zx/Y0djQC5qcGc",
+    "links": [
+      {
+        "label": "BBC news (IPO milestone)",
+        "url": "https://www.bbc.com/news/business-56023658"
+      }
+    ]
+  },
+  {
+    "id": "s-112",
+    "name": "Boyan Slat",
+    "title": "Student Inventor → The Ocean Cleanup Founder",
+    "domain": "engineering",
+    "userType": "student",
+    "year": 2013,
+    "date": "2013-10-01",
+    "summary": "Founded an org developing systems to remove plastic from oceans and rivers.",
+    "story": "From a 2012 TEDx talk to large-scale pilots in the Great Pacific Garbage Patch and river Interceptor projects.",
+    "tags": ["environment", "hardware"],
+    "photo": "https://imgs.search.brave.com/8g95q9n3J4MCQH4vuUuoZjW_ENqARDfWM_pfKD7hf5k/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNDUz/MTU3MjU2L2RlL2Zv/dG8vZGVsZnQtbmV0/aGVybGFuZHMtZm91/bmRlci1hbmQtY2Vv/LW9mLXRoZS1vY2Vh/bi1jbGVhbnVwLWJv/eWFuLXNsYXQtaXMt/cGhvdG9ncmFwaGVk/LWF0LWhpcy1vZmZp/Y2UuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPVFzM3A0ckZL/M3duWVViZE5nZGFX/TWNZLWJXV1pQdDQ5/QUlmNVhVcktFVTA9",
+    "links": [
+      {
+        "label": "Wikipedia overview",
+        "url": "https://en.wikipedia.org/wiki/The_Ocean_Cleanup"
+      }
+    ]
+  },
+  {
+    "id": "s-113",
+    "name": "Ava DuVernay",
+    "title": "PR Exec → Award-Winning Director",
+    "domain": "arts",
+    "userType": "professional",
+    "year": 2012,
+    "date": "2012-01-22",
+    "summary": "Pivoted to filmmaking at 32; became the first Black woman to win Sundance Best Director (U.S. Dramatic).",
+    "story": "Self-taught through indie features; ‘Middle of Nowhere’ earned Sundance directing honors in 2012.",
+    "tags": ["film", "career-switch"],
+    "photo": "https://imgs.search.brave.com/WUTZ-iAlt3fsYpTXsriZWD4e-UgyMIWz5VYjzPQXRwc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vcGhvdG9z/L2F2YS1kdXZlcm5h/eS1hdHRlbmRzLXRo/ZS0yMDIwLXZhbml0/eS1mYWlyLW9zY2Fy/LXBhcnR5LWhvc3Rl/ZC1ieS1hdC1waWN0/dXJlLWlkMTIwNTE1/MTgxMD9rPTIwJm09/MTIwNTE1MTgxMCZz/PTYxMng2MTImdz0w/Jmg9WHRia3lkbUlT/ck1WRkFjcTEwSDNi/TWY0aUFOMkwwQ0pO/OFZQMkVVN0xpdz0",
+    "links": [
+      {
+        "label": "Sundance record",
+        "url": "https://history.sundance.org/awards/2"
+      },
+      {
+        "label": "Biography",
+        "url": "https://www.britannica.com/biography/Ava-DuVernay"
+      }
+    ]
+  },
+  {
+    "id": "s-114",
+    "name": "Jennifer Doudna & Emmanuelle Charpentier",
+    "title": "Researchers → Nobel Laureates (CRISPR)",
+    "domain": "science",
+    "userType": "professional",
+    "year": 2020,
+    "date": "2020-10-07",
+    "summary": "Awarded the Nobel Prize in Chemistry for developing CRISPR gene editing.",
+    "story": "Their discoveries transformed biology and medicine, enabling precise genome editing.",
+    "tags": ["genomics", "CRISPR", "Nobel"],
+    "photo": "https://imgs.search.brave.com/jvJMzWu3YkWiZi7RJXVlNA_HJbtU2vnNu_nSaqq9ipA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/YnJpdGFubmljYS5j/b20vMjUvMjcxNDI1/LTAwNC1GMTI5MDlB/Ny8yMDIwLU5vYmVs/LXByaXplLXdpbm5l/cnMtSmVubmlmZXIt/RG91ZG5hLUVtbWFu/dWVsbGUtQ2hhcnBl/bnRpZXItcGhvdG8t/MjAxNi1jaGVtaXN0/cnkuanBn",
+    "links": [
+      {
+        "label": "Nobel Prize press release",
+        "url": "https://www.nobelprize.org/prizes/chemistry/2020/press-release/"
+      }
+    ]
+  },
+  {
+    "id": "s-115",
+    "name": "Devi Shetty",
+    "title": "Cardiac Surgeon → Narayana Health Founder",
+    "domain": "healthcare",
+    "userType": "professional",
+    "year": 2001,
+    "date": "2001-06-01",
+    "summary": "Pioneered high-volume, lower-cost cardiac care models in India.",
+    "story": "Standardized procedures and economies of scale made complex surgeries more accessible.",
+    "tags": ["healthcare-delivery", "scaling"],
+    "photo": "https://imgs.search.brave.com/GPCKr0vbKUorsiGEEp8J5IMDJ6NQBBeubjxX6ToISk0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2IwLzFh/Lzk3L2IwMWE5N2Yz/N2MwZmZkNTQ1YjVj/NmE3YTgwMmNiYmQz/LmpwZw",
+    "links": [
+      {
+        "label": "Harvard case/coverage summary",
+        "url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=41560"
+      },
+      {
+        "label": "Narayana Health overview",
+        "url": "https://www.narayanahealth.org/about-us"
+      }
+    ]
+  },
+  {
+    "id": "s-116",
+    "name": "Reshma Saujani",
+    "title": "Founder → Girls Who Code",
+    "domain": "technology",
+    "userType": "professional",
+    "year": 2012,
+    "date": "2012-01-01",
+    "summary": "Launched a nonprofit to close the gender gap in tech through clubs and summer programs.",
+    "story": "From public service to founding Girls Who Code, reaching hundreds of thousands of students.",
+    "tags": ["nonprofit", "diversity-in-tech"],
+    "photo": "https://imgs.search.brave.com/2K3-MtbVgYxH28YmXVDMcld4iDcJc-Q3qgHhVWVQNk8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTc3/MTU2MjM3OS9mci9w/aG90by9sb3MtYW5n/ZWxlcy1jYWxpZm9y/bmlhLXJlc2htYS1z/YXVqYW5pLXNwZWFr/cy1vbnN0YWdlLWR1/cmluZy1kYXktb25l/LW9mLWNhcmVmZXN0/LWF0LXVjbGEtbWV5/ZXIuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPU53TmtWNXct/bE1DZ0VBTm82S09v/S1FXbk1rUElYb3Rf/OHlEeE9ncy1ndTg9",
+    "links": [
+      { "label": "Organization page", "url": "https://girlswhocode.com/about" }
+    ]
+  },
+  {
+    "id": "s-117",
+    "name": "Indra Nooyi",
+    "title": "CEO → ‘Performance with Purpose’ at PepsiCo",
+    "domain": "business",
+    "userType": "professional",
+    "year": 2006,
+    "date": "2006-10-01",
+    "summary": "Steered strategy aligning growth with health/sustainability initiatives.",
+    "story": "Led portfolio shifts and sustainability goals while growing a global consumer giant.",
+    "tags": ["leadership", "strategy"],
+    "photo": "https://imgs.search.brave.com/nNZKcETPxXqoXS7VcZLYak5dYnO1KDGeX1SYLsTFjhk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNDg2/MTUyNDE4L3Bob3Rv/L25ldy1kZWxoaS1p/bmRpYS1ub3ZlbWJl/ci0xMS1wZXBzaWNv/LWNoYWlycGVyc29u/LWFuZC1jZW8taW5k/cmEtbm9veWktcG9z/ZXMtZm9yLWEtcHJv/ZmlsZS5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9RXhEZUpk/SkhvRFdpMS1Vbi1L/bEdtdGQtMW1IVzJw/OEkxejI4NmNCWlZw/OD0",
+    "links": [
+      {
+        "label": "Britannica bio",
+        "url": "https://www.britannica.com/biography/Indra-Nooyi"
+      }
+    ]
+  },
+  {
+    "id": "s-118",
+    "name": "Ngozi Okonjo-Iweala",
+    "title": "Economist → WTO Director-General",
+    "domain": "business",
+    "userType": "professional",
+    "year": 2021,
+    "date": "2021-03-01",
+    "summary": "Became the first woman and first African to lead the World Trade Organization.",
+    "story": "Former finance minister and World Bank leader, appointed WTO DG to guide global trade reforms.",
+    "tags": ["global-trade", "leadership"],
+    "photo": "https://imgs.search.brave.com/C1M-Dg951RdXTYgoXghyb10No62f8aLy2_BXTRp5MTE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvODQ5/NTA4ODQyL2ZyL3Bo/b3RvL25ldy15b3Jr/LW55LWRyLW5nb3pp/LW9rb25qby1pd2Vh/bGEtZm9ybWVyLW5p/Z2VyaWFuLWNvb3Jk/aW5hdGluZy1taW5p/c3Rlci1vZi10aGUt/ZWNvbm9teS1hbmQu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PTlHQndnOVdMRnQ1/b3BjbDdGRVJNbDJH/LXRsSk1GX0xQd25l/dHBmclg5X2M9",
+    "links": [
+      {
+        "label": "WTO page",
+        "url": "https://www.wto.org/english/thewto_e/dg_e/dg_e.htm"
+      },
+      {
+        "label": "Forbes report",
+        "url": "https://www.forbes.com/sites/ginaheeb/2021/02/15/ngozi-okonjo-iweala-becomes-first-woman-african-to-lead-world-trade-organization/"
+      }
+    ]
+  },
+  {
+    "id": "s-119",
+    "name": "Katalin Karikó & Drew Weissman",
+    "title": "Scientists → Nobel Prize for mRNA Breakthrough",
+    "domain": "healthcare",
+    "userType": "professional",
+    "year": 2023,
+    "date": "2023-10-02",
+    "summary": "Honored for nucleoside-modified mRNA that enabled COVID-19 vaccines.",
+    "story": "Decades of persistence on mRNA led to vaccines that saved millions and opened new therapeutic paths.",
+    "tags": ["mRNA", "vaccines", "Nobel"],
+    "photo": "https://imgs.search.brave.com/HIVashOKdfS_se3SEIVqfRo7Sv9m1vAVVVck36HLYNI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/c2NpZW5jZS5vcmcv/ZG8vMTAuMTEyNi9z/Y2llbmNlLmFkbDEw/ODAvZnVsbC9fMjAy/MzEwMDJfb25fbm9i/ZWxfbWVkaWNpbmVf/bGFiLTE2OTY0NDQ3/NTM0MzcuanBn",
+    "links": [
+      {
+        "label": "Nobel press release",
+        "url": "https://www.nobelprize.org/prizes/medicine/2023/press-release/"
+      }
+    ]
+  },
+  {
+    "id": "s-120",
+    "name": "CareerFoundry: Data Analyst Day-in-the-Life",
+    "title": "Ed-Tech Role Spotlight → Analytics",
+    "domain": "technology",
+    "userType": "graduate",
+    "year": 2023,
+    "date": "2023-10-10",
+    "summary": "A transparent, realistic walkthrough of daily tools/tasks for analysts.",
+    "story": "Shows BI tooling, stakeholder rhythms, and deliverables for aspiring analysts.",
+    "tags": ["analytics", "BI", "careers"],
+    "photo": "https://imgs.search.brave.com/5sWOqzpLRVRPN9s7UoPHF-T630mX5TNYA0n3lDzoj_I/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuY3RmYXNzZXRz/Lm5ldC90ZnZrdXVq/OG5hZTAvMnJwamhW/VFZrd09DQmRQUUJt/MU9Rdy8xZDY5NTEy/NWIyMTM0MTIwYzU2/M2RkMmYwYmJkYzY4/MS9kYXRhLWFuYWx5/c3QtZGF5LWluLXRo/ZS1saWZlLmpwZz93/PTQxNCZoPTI3NiZm/bD1wcm9ncmVzc2l2/ZSZxPTkwJmZtPWpw/Zw",
+    "links": [
+      {
+        "label": "Video (YouTube)",
+        "url": "https://www.youtube.com/watch?v=qzZU6LAtIig"
+      }
+    ]
+  }
+]

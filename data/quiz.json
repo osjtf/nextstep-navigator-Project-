@@ -1,0 +1,921 @@
+{
+  "technology": {
+    "total": 12,
+    "questions": [
+      {
+        "q": "Which activity sounds most exciting?",
+        "choices": [
+          {
+            "t": "Building a mobile app prototype",
+            "s": { "technology": 3, "design": 1 }
+          },
+          { "t": "Planning a marketing campaign", "s": { "business": 2 } },
+          { "t": "Designing a poster for an event", "s": { "design": 2 } },
+          { "t": "Assisting in a clinic", "s": { "healthcare": 2 } }
+        ]
+      },
+      {
+        "q": "Pick a course you’d enjoy the most:",
+        "choices": [
+          { "t": "Algorithms & Problem Solving", "s": { "technology": 3 } },
+          { "t": "Financial Accounting", "s": { "business": 2 } },
+          { "t": "Human Anatomy", "s": { "healthcare": 2 } },
+          { "t": "Product Design Studio", "s": { "design": 2 } }
+        ]
+      },
+      {
+        "q": "In a team, you naturally become the…",
+        "choices": [
+          { "t": "Coder / Troubleshooter", "s": { "technology": 3 } },
+          { "t": "Organizer / Presenter", "s": { "business": 2 } },
+          { "t": "Visualizer / Prototyper", "s": { "design": 2 } },
+          { "t": "Support / Carer", "s": { "healthcare": 2 } }
+        ]
+      },
+      {
+        "q": "Which challenge sounds fun?",
+        "choices": [
+          { "t": "Automate a boring task", "s": { "technology": 3 } },
+          { "t": "Grow social media conversions", "s": { "business": 2 } },
+          { "t": "Redesign a confusing form", "s": { "design": 2 } },
+          { "t": "Simplify patient instructions", "s": { "healthcare": 2 } }
+        ]
+      },
+      {
+        "q": "Choose a tool to master:",
+        "choices": [
+          { "t": "JavaScript/Python", "s": { "technology": 3 } },
+          { "t": "Excel/Power BI", "s": { "business": 2, "technology": 1 } },
+          { "t": "Figma", "s": { "design": 3 } },
+          { "t": "EMR System", "s": { "healthcare": 3 } }
+        ]
+      },
+      {
+        "q": "Preferred work environment:",
+        "choices": [
+          { "t": "Product/Tech company", "s": { "technology": 3 } },
+          {
+            "t": "Agency/Client projects",
+            "s": { "business": 2, "design": 1 }
+          },
+          { "t": "Hospital/Clinic", "s": { "healthcare": 3 } },
+          { "t": "Engineering firm", "s": { "engineering": 3 } }
+        ]
+      },
+      {
+        "q": "What motivates you most?",
+        "choices": [
+          {
+            "t": "Solving complex problems",
+            "s": { "technology": 3, "engineering": 1 }
+          },
+          { "t": "Helping people directly", "s": { "healthcare": 3 } },
+          { "t": "Making things look & feel better", "s": { "design": 3 } },
+          { "t": "Optimizing business outcomes", "s": { "business": 3 } }
+        ]
+      },
+      {
+        "q": "Pick a mini-project:",
+        "choices": [
+          { "t": "Build a chatbot", "s": { "technology": 3 } },
+          { "t": "Design brand identity", "s": { "design": 3 } },
+          { "t": "Budget forecasting", "s": { "business": 3 } },
+          { "t": "Patient education leaflet", "s": { "healthcare": 3 } }
+        ]
+      },
+      {
+        "q": "Which article would you read first?",
+        "choices": [
+          { "t": "‘Intro to APIs’", "s": { "technology": 3 } },
+          { "t": "‘Market Segmentation 101’", "s": { "business": 3 } },
+          { "t": "‘Principles of Ergonomics’", "s": { "engineering": 3 } },
+          { "t": "‘Digital Therapeutics’", "s": { "healthcare": 3 } }
+        ]
+      },
+      {
+        "q": "Your strength is:",
+        "choices": [
+          { "t": "Logic & debugging", "s": { "technology": 3 } },
+          { "t": "Communication & pitching", "s": { "business": 3 } },
+          { "t": "Empathy & patience", "s": { "healthcare": 3 } },
+          { "t": "Sketching & prototyping", "s": { "design": 3 } }
+        ]
+      },
+      {
+        "q": "Pick a mentor session:",
+        "choices": [
+          { "t": "Cloud careers roadmapping", "s": { "technology": 3 } },
+          { "t": "CV & interview strategy", "s": { "business": 2 } },
+          { "t": "Clinical pathways", "s": { "healthcare": 3 } },
+          { "t": "Design critique", "s": { "design": 3 } }
+        ]
+      },
+      {
+        "q": "Which club would you join?",
+        "choices": [
+          { "t": "Coding club", "s": { "technology": 3 } },
+          { "t": "Entrepreneurship club", "s": { "business": 3 } },
+          {
+            "t": "Makers/Robotics",
+            "s": { "engineering": 3, "technology": 1 }
+          },
+          { "t": "Art & Design club", "s": { "design": 3 } }
+        ]
+      }
+    ]
+  },
+  "healthcare": {
+    "total": 12,
+    "questions": [
+      {
+        "q": "Which experience appeals most?",
+        "choices": [
+          { "t": "Shadowing a nurse on rounds", "s": { "healthcare": 3 } },
+          {
+            "t": "Analyzing clinic wait-time data",
+            "s": { "technology": 1, "business": 1, "healthcare": 2 }
+          },
+          {
+            "t": "Designing clear discharge forms",
+            "s": { "design": 2, "healthcare": 2 }
+          },
+          {
+            "t": "Optimizing supply inventory",
+            "s": { "business": 2, "engineering": 1 }
+          }
+        ]
+      },
+      {
+        "q": "Pick a course you’d enjoy the most:",
+        "choices": [
+          { "t": "Human Anatomy & Physiology", "s": { "healthcare": 3 } },
+          {
+            "t": "Healthcare Finance Basics",
+            "s": { "business": 2, "healthcare": 1 }
+          },
+          {
+            "t": "Medical Device Design",
+            "s": { "engineering": 2, "healthcare": 1 }
+          },
+          {
+            "t": "Health Informatics",
+            "s": { "technology": 2, "healthcare": 1 }
+          }
+        ]
+      },
+      {
+        "q": "Preferred setting:",
+        "choices": [
+          { "t": "Hospital or clinic", "s": { "healthcare": 3 } },
+          {
+            "t": "Public health outreach",
+            "s": { "healthcare": 3, "business": 1 }
+          },
+          {
+            "t": "Medical research lab",
+            "s": { "healthcare": 2, "technology": 1 }
+          },
+          {
+            "t": "Medical device company",
+            "s": { "engineering": 2, "business": 1 }
+          }
+        ]
+      },
+      {
+        "q": "What motivates you most?",
+        "choices": [
+          { "t": "Improving patient outcomes", "s": { "healthcare": 3 } },
+          {
+            "t": "Scaling efficient systems",
+            "s": { "business": 2, "technology": 1 }
+          },
+          {
+            "t": "Designing easier-to-read instructions",
+            "s": { "design": 2, "healthcare": 1 }
+          },
+          { "t": "Creating reliable equipment", "s": { "engineering": 2 } }
+        ]
+      },
+      {
+        "q": "Choose a tool to master:",
+        "choices": [
+          { "t": "Electronic Medical Records (EMR)", "s": { "healthcare": 3 } },
+          {
+            "t": "Basic biostatistics (R/SPSS)",
+            "s": { "healthcare": 2, "technology": 1 }
+          },
+          {
+            "t": "Quality Improvement (PDSA)",
+            "s": { "business": 2, "healthcare": 1 }
+          },
+          {
+            "t": "Point-of-care devices",
+            "s": { "engineering": 2, "healthcare": 1 }
+          }
+        ]
+      },
+      {
+        "q": "A weekend project sounds best as:",
+        "choices": [
+          { "t": "Health education workshop", "s": { "healthcare": 3 } },
+          {
+            "t": "App for medication reminders",
+            "s": { "technology": 2, "healthcare": 1 }
+          },
+          {
+            "t": "Designing a clinic wayfinding map",
+            "s": { "design": 2, "healthcare": 1 }
+          },
+          {
+            "t": "Streamlining appointment flow",
+            "s": { "business": 2, "healthcare": 1 }
+          }
+        ]
+      },
+      {
+        "q": "Pick a role to explore:",
+        "choices": [
+          { "t": "Registered Nurse", "s": { "healthcare": 3 } },
+          {
+            "t": "Health Data Analyst",
+            "s": { "technology": 2, "healthcare": 1 }
+          },
+          { "t": "Medical Illustrator", "s": { "design": 2, "healthcare": 1 } },
+          {
+            "t": "Biomedical Engineer",
+            "s": { "engineering": 2, "healthcare": 1 }
+          }
+        ]
+      },
+      {
+        "q": "Which topic is most interesting?",
+        "choices": [
+          { "t": "Vaccination programs", "s": { "healthcare": 3 } },
+          {
+            "t": "Telemedicine platforms",
+            "s": { "technology": 2, "healthcare": 1 }
+          },
+          { "t": "Clinic brand and patient trust", "s": { "business": 2 } },
+          { "t": "Prototyping a low-cost device", "s": { "engineering": 2 } }
+        ]
+      },
+      {
+        "q": "Your strength is:",
+        "choices": [
+          { "t": "Compassion & patience", "s": { "healthcare": 3 } },
+          {
+            "t": "Data-driven thinking",
+            "s": { "technology": 2, "business": 1 }
+          },
+          { "t": "Visual clarity", "s": { "design": 3 } },
+          { "t": "Systems & safety mindset", "s": { "engineering": 2 } }
+        ]
+      },
+      {
+        "q": "Pick a mentor session:",
+        "choices": [
+          { "t": "Clinical career pathways", "s": { "healthcare": 3 } },
+          {
+            "t": "Healthcare analytics careers",
+            "s": { "technology": 2, "healthcare": 1 }
+          },
+          {
+            "t": "Patient communication & design",
+            "s": { "design": 2, "healthcare": 1 }
+          },
+          {
+            "t": "Medical device careers",
+            "s": { "engineering": 2, "healthcare": 1 }
+          }
+        ]
+      },
+      {
+        "q": "Which challenge sounds fun?",
+        "choices": [
+          {
+            "t": "Design a patient safety checklist",
+            "s": { "healthcare": 2, "design": 1 }
+          },
+          {
+            "t": "Build a symptom tracker",
+            "s": { "technology": 2, "healthcare": 1 }
+          },
+          { "t": "Optimize clinic staffing", "s": { "business": 2 } },
+          { "t": "Calibrate a monitoring sensor", "s": { "engineering": 2 } }
+        ]
+      },
+      {
+        "q": "Which club would you join?",
+        "choices": [
+          { "t": "Public health club", "s": { "healthcare": 3 } },
+          {
+            "t": "Bioinformatics/data club",
+            "s": { "technology": 2, "healthcare": 1 }
+          },
+          {
+            "t": "Medical device makers",
+            "s": { "engineering": 2, "healthcare": 1 }
+          },
+          {
+            "t": "Health communications",
+            "s": { "design": 2, "healthcare": 1 }
+          }
+        ]
+      }
+    ]
+  },
+  "business": {
+    "total": 12,
+    "questions": [
+      {
+        "q": "Which activity sounds most exciting?",
+        "choices": [
+          {
+            "t": "Launching an online store",
+            "s": { "business": 3, "technology": 1 }
+          },
+          { "t": "Designing a product logo", "s": { "design": 2 } },
+          {
+            "t": "Mapping warehouse flow",
+            "s": { "engineering": 2, "business": 1 }
+          },
+          {
+            "t": "Planning a workplace wellness fair",
+            "s": { "healthcare": 2 }
+          }
+        ]
+      },
+      {
+        "q": "Pick a course you’d enjoy the most:",
+        "choices": [
+          {
+            "t": "Marketing Analytics",
+            "s": { "business": 3, "technology": 1 }
+          },
+          {
+            "t": "Operations Management",
+            "s": { "business": 3, "engineering": 1 }
+          },
+          { "t": "Visual Communication", "s": { "design": 2 } },
+          { "t": "Health Economics", "s": { "business": 2, "healthcare": 1 } }
+        ]
+      },
+      {
+        "q": "In a team, you naturally become the…",
+        "choices": [
+          { "t": "Coordinator / Presenter", "s": { "business": 3 } },
+          { "t": "Prototype designer", "s": { "design": 2 } },
+          { "t": "Data wrangler", "s": { "technology": 2, "business": 1 } },
+          { "t": "Process optimizer", "s": { "engineering": 2, "business": 1 } }
+        ]
+      },
+      {
+        "q": "Which challenge sounds fun?",
+        "choices": [
+          { "t": "Increase customer retention", "s": { "business": 3 } },
+          { "t": "Refactor a slow script", "s": { "technology": 3 } },
+          {
+            "t": "Redesign a pricing page",
+            "s": { "design": 2, "business": 1 }
+          },
+          {
+            "t": "Shorten factory lead-times",
+            "s": { "engineering": 2, "business": 1 }
+          }
+        ]
+      },
+      {
+        "q": "Choose a tool to master:",
+        "choices": [
+          {
+            "t": "Excel/Power BI dashboards",
+            "s": { "business": 3, "technology": 1 }
+          },
+          { "t": "CRM & email automation", "s": { "business": 3 } },
+          {
+            "t": "Figma for landing pages",
+            "s": { "design": 2, "business": 1 }
+          },
+          {
+            "t": "Lean/Six Sigma basics",
+            "s": { "engineering": 2, "business": 1 }
+          }
+        ]
+      },
+      {
+        "q": "Preferred work environment:",
+        "choices": [
+          { "t": "Startup or SME", "s": { "business": 3 } },
+          {
+            "t": "Enterprise operations",
+            "s": { "business": 2, "engineering": 1 }
+          },
+          { "t": "Creative agency", "s": { "design": 2 } },
+          {
+            "t": "Health services organization",
+            "s": { "healthcare": 2, "business": 1 }
+          }
+        ]
+      },
+      {
+        "q": "What motivates you most?",
+        "choices": [
+          { "t": "Growing revenue and reach", "s": { "business": 3 } },
+          {
+            "t": "Elegant, reliable systems",
+            "s": { "technology": 2, "engineering": 1 }
+          },
+          { "t": "Clear, persuasive visuals", "s": { "design": 2 } },
+          { "t": "Improving community outcomes", "s": { "healthcare": 2 } }
+        ]
+      },
+      {
+        "q": "Pick a mini-project:",
+        "choices": [
+          { "t": "Design a go-to-market plan", "s": { "business": 3 } },
+          {
+            "t": "Build a sales KPI dashboard",
+            "s": { "business": 2, "technology": 1 }
+          },
+          {
+            "t": "A/B test a landing page",
+            "s": { "design": 2, "business": 1 }
+          },
+          {
+            "t": "Rework a fulfillment process",
+            "s": { "engineering": 2, "business": 1 }
+          }
+        ]
+      },
+      {
+        "q": "Which article would you read first?",
+        "choices": [
+          { "t": "‘Pricing Psychology Basics’", "s": { "business": 3 } },
+          { "t": "‘APIs for Non-Devs’", "s": { "technology": 2 } },
+          {
+            "t": "‘Service Blueprinting’",
+            "s": { "design": 2, "business": 1 }
+          },
+          {
+            "t": "‘Inventory Reorder Points’",
+            "s": { "engineering": 2, "business": 1 }
+          }
+        ]
+      },
+      {
+        "q": "Your strength is:",
+        "choices": [
+          { "t": "Communication & persuasion", "s": { "business": 3 } },
+          {
+            "t": "Quantitative analysis",
+            "s": { "technology": 2, "business": 1 }
+          },
+          { "t": "Sense of aesthetics", "s": { "design": 3 } },
+          {
+            "t": "Process discipline",
+            "s": { "engineering": 2, "business": 1 }
+          }
+        ]
+      },
+      {
+        "q": "Pick a mentor session:",
+        "choices": [
+          { "t": "Product marketing strategy", "s": { "business": 3 } },
+          {
+            "t": "Analytics for decision-making",
+            "s": { "business": 2, "technology": 1 }
+          },
+          {
+            "t": "Conversion-focused design",
+            "s": { "design": 2, "business": 1 }
+          },
+          {
+            "t": "Ops & supply chain",
+            "s": { "engineering": 2, "business": 1 }
+          }
+        ]
+      },
+      {
+        "q": "Which club would you join?",
+        "choices": [
+          { "t": "Entrepreneurship club", "s": { "business": 3 } },
+          {
+            "t": "Data & analytics club",
+            "s": { "technology": 2, "business": 1 }
+          },
+          { "t": "Brand/Creative club", "s": { "design": 2 } },
+          {
+            "t": "Operations society",
+            "s": { "engineering": 2, "business": 1 }
+          }
+        ]
+      }
+    ]
+  },
+  "design": {
+    "total": 12,
+    "questions": [
+      {
+        "q": "Which activity sounds most exciting?",
+        "choices": [
+          {
+            "t": "Sketching interfaces for a new app",
+            "s": { "design": 3, "technology": 1 }
+          },
+          {
+            "t": "Producing a 3D printable part",
+            "s": { "engineering": 2, "design": 1 }
+          },
+          {
+            "t": "Crafting a campaign storyboard",
+            "s": { "design": 3, "business": 1 }
+          },
+          {
+            "t": "Designing patient handouts",
+            "s": { "design": 2, "healthcare": 1 }
+          }
+        ]
+      },
+      {
+        "q": "Pick a course you’d enjoy the most:",
+        "choices": [
+          { "t": "Human-Centered Design", "s": { "design": 3 } },
+          { "t": "Typography & Layout", "s": { "design": 3 } },
+          {
+            "t": "Intro to Front-End Dev",
+            "s": { "technology": 2, "design": 1 }
+          },
+          { "t": "Design for Health", "s": { "design": 2, "healthcare": 1 } }
+        ]
+      },
+      {
+        "q": "In a team, you naturally become the…",
+        "choices": [
+          { "t": "Visualizer / Prototyper", "s": { "design": 3 } },
+          {
+            "t": "Researcher / UX interviewer",
+            "s": { "design": 3, "business": 1 }
+          },
+          { "t": "Design technologist", "s": { "technology": 2, "design": 1 } },
+          {
+            "t": "Design for manufacturability",
+            "s": { "engineering": 2, "design": 1 }
+          }
+        ]
+      },
+      {
+        "q": "Which challenge sounds fun?",
+        "choices": [
+          { "t": "Redesign a confusing form", "s": { "design": 3 } },
+          {
+            "t": "Improve onboarding UI",
+            "s": { "design": 3, "technology": 1 }
+          },
+          {
+            "t": "Build a visual brand system",
+            "s": { "design": 3, "business": 1 }
+          },
+          {
+            "t": "Ergonomics for a hand tool",
+            "s": { "engineering": 2, "design": 1 }
+          }
+        ]
+      },
+      {
+        "q": "Choose a tool to master:",
+        "choices": [
+          { "t": "Figma/Sketch", "s": { "design": 3 } },
+          { "t": "Adobe Illustrator", "s": { "design": 3 } },
+          {
+            "t": "Blender/3D CAD basics",
+            "s": { "engineering": 2, "design": 1 }
+          },
+          {
+            "t": "Design handoff in GitHub",
+            "s": { "technology": 2, "design": 1 }
+          }
+        ]
+      },
+      {
+        "q": "Preferred work environment:",
+        "choices": [
+          { "t": "Product design studio", "s": { "design": 3 } },
+          { "t": "Creative agency", "s": { "design": 3, "business": 1 } },
+          {
+            "t": "Startup with designers & devs",
+            "s": { "design": 2, "technology": 1 }
+          },
+          {
+            "t": "Industrial design lab",
+            "s": { "engineering": 2, "design": 1 }
+          }
+        ]
+      },
+      {
+        "q": "What motivates you most?",
+        "choices": [
+          { "t": "Clarity and delight for users", "s": { "design": 3 } },
+          {
+            "t": "Brand consistency and impact",
+            "s": { "design": 2, "business": 1 }
+          },
+          {
+            "t": "Designing feasible products",
+            "s": { "engineering": 2, "design": 1 }
+          },
+          {
+            "t": "Accessible, inclusive design",
+            "s": { "design": 3, "healthcare": 1 }
+          }
+        ]
+      },
+      {
+        "q": "Pick a mini-project:",
+        "choices": [
+          { "t": "Wireframe a mobile flow", "s": { "design": 3 } },
+          { "t": "Design a logo system", "s": { "design": 3 } },
+          {
+            "t": "Proto a microinteraction",
+            "s": { "design": 3, "technology": 1 }
+          },
+          {
+            "t": "Design a clinic wayfinding set",
+            "s": { "design": 2, "healthcare": 1 }
+          }
+        ]
+      },
+      {
+        "q": "Which article would you read first?",
+        "choices": [
+          { "t": "‘UX Writing Basics’", "s": { "design": 3 } },
+          {
+            "t": "‘Design Tokens & Systems’",
+            "s": { "design": 3, "technology": 1 }
+          },
+          {
+            "t": "‘Packaging & Cost Trade-offs’",
+            "s": { "engineering": 2, "business": 1 }
+          },
+          {
+            "t": "‘Accessible Color Contrast’",
+            "s": { "design": 3, "healthcare": 1 }
+          }
+        ]
+      },
+      {
+        "q": "Your strength is:",
+        "choices": [
+          { "t": "Visual hierarchy & layout", "s": { "design": 3 } },
+          {
+            "t": "Empathy & interviewing",
+            "s": { "design": 3, "healthcare": 1 }
+          },
+          { "t": "Design pragmatism", "s": { "engineering": 2, "design": 1 } },
+          { "t": "Design storytelling", "s": { "design": 3, "business": 1 } }
+        ]
+      },
+      {
+        "q": "Pick a mentor session:",
+        "choices": [
+          { "t": "Portfolio critique", "s": { "design": 3 } },
+          {
+            "t": "Design systems & tokens",
+            "s": { "design": 3, "technology": 1 }
+          },
+          {
+            "t": "Design for manufacturability",
+            "s": { "engineering": 2, "design": 1 }
+          },
+          { "t": "Brand strategy", "s": { "design": 2, "business": 1 } }
+        ]
+      },
+      {
+        "q": "Which club would you join?",
+        "choices": [
+          { "t": "Art & Design club", "s": { "design": 3 } },
+          {
+            "t": "Accessibility & Inclusive Design",
+            "s": { "design": 3, "healthcare": 1 }
+          },
+          {
+            "t": "HCI/UX research group",
+            "s": { "design": 2, "technology": 1 }
+          },
+          {
+            "t": "Industrial design & prototyping",
+            "s": { "engineering": 2, "design": 1 }
+          }
+        ]
+      }
+    ]
+  },
+  "engineering": {
+    "total": 12,
+    "questions": [
+      {
+        "q": "Which activity sounds most exciting?",
+        "choices": [
+          { "t": "Designing a bridge concept", "s": { "engineering": 3 } },
+          {
+            "t": "Automating a production line",
+            "s": { "engineering": 3, "technology": 1 }
+          },
+          {
+            "t": "Optimizing delivery routes",
+            "s": { "business": 2, "engineering": 1 }
+          },
+          {
+            "t": "Designing ergonomic controls",
+            "s": { "design": 2, "engineering": 1 }
+          }
+        ]
+      },
+      {
+        "q": "Pick a course you’d enjoy the most:",
+        "choices": [
+          { "t": "Statics & Strength of Materials", "s": { "engineering": 3 } },
+          { "t": "Thermodynamics", "s": { "engineering": 3 } },
+          {
+            "t": "Embedded Systems",
+            "s": { "technology": 2, "engineering": 1 }
+          },
+          {
+            "t": "Engineering Economics",
+            "s": { "business": 2, "engineering": 1 }
+          }
+        ]
+      },
+      {
+        "q": "In a team, you naturally become the…",
+        "choices": [
+          { "t": "Systems thinker", "s": { "engineering": 3 } },
+          {
+            "t": "Automation developer",
+            "s": { "technology": 2, "engineering": 1 }
+          },
+          {
+            "t": "Cost/time planner",
+            "s": { "business": 2, "engineering": 1 }
+          },
+          { "t": "Prototype modeler", "s": { "design": 2, "engineering": 1 } }
+        ]
+      },
+      {
+        "q": "Which challenge sounds fun?",
+        "choices": [
+          {
+            "t": "Reduce energy consumption by 15%",
+            "s": { "engineering": 3 }
+          },
+          {
+            "t": "Create a sensor dashboard",
+            "s": { "technology": 2, "engineering": 1 }
+          },
+          {
+            "t": "Re-layout a warehouse",
+            "s": { "business": 2, "engineering": 1 }
+          },
+          {
+            "t": "Improve user controls",
+            "s": { "design": 2, "engineering": 1 }
+          }
+        ]
+      },
+      {
+        "q": "Choose a tool to master:",
+        "choices": [
+          { "t": "CAD (SolidWorks/AutoCAD)", "s": { "engineering": 3 } },
+          {
+            "t": "PLC/SCADA basics",
+            "s": { "engineering": 3, "technology": 1 }
+          },
+          { "t": "Simulation (MATLAB/Simulink)", "s": { "engineering": 3 } },
+          {
+            "t": "Root-cause (5 Whys, Fishbone)",
+            "s": { "business": 2, "engineering": 1 }
+          }
+        ]
+      },
+      {
+        "q": "Preferred work environment:",
+        "choices": [
+          { "t": "Design office & test lab", "s": { "engineering": 3 } },
+          { "t": "Factory floor", "s": { "engineering": 3, "business": 1 } },
+          {
+            "t": "IoT product team",
+            "s": { "technology": 2, "engineering": 1 }
+          },
+          {
+            "t": "Prototyping/industrial shop",
+            "s": { "design": 2, "engineering": 1 }
+          }
+        ]
+      },
+      {
+        "q": "What motivates you most?",
+        "choices": [
+          { "t": "Making reliable, safe systems", "s": { "engineering": 3 } },
+          {
+            "t": "Elegant technical solutions",
+            "s": { "technology": 2, "engineering": 1 }
+          },
+          {
+            "t": "Lower costs and waste",
+            "s": { "business": 2, "engineering": 1 }
+          },
+          {
+            "t": "Comfortable human factors",
+            "s": { "design": 2, "engineering": 1 }
+          }
+        ]
+      },
+      {
+        "q": "Pick a mini-project:",
+        "choices": [
+          { "t": "Design a truss and test it", "s": { "engineering": 3 } },
+          {
+            "t": "Build an Arduino sensor",
+            "s": { "technology": 2, "engineering": 1 }
+          },
+          {
+            "t": "Value stream map a process",
+            "s": { "business": 2, "engineering": 1 }
+          },
+          {
+            "t": "3D print an ergonomic grip",
+            "s": { "design": 2, "engineering": 1 }
+          }
+        ]
+      },
+      {
+        "q": "Which article would you read first?",
+        "choices": [
+          { "t": "‘Finite Element Analysis 101’", "s": { "engineering": 3 } },
+          {
+            "t": "‘Control Systems Basics’",
+            "s": { "engineering": 3, "technology": 1 }
+          },
+          {
+            "t": "‘Total Productive Maintenance’",
+            "s": { "business": 2, "engineering": 1 }
+          },
+          {
+            "t": "‘Design for Assembly (DFA)’",
+            "s": { "design": 2, "engineering": 1 }
+          }
+        ]
+      },
+      {
+        "q": "Your strength is:",
+        "choices": [
+          { "t": "Spatial & mechanical reasoning", "s": { "engineering": 3 } },
+          {
+            "t": "Coding & data skills",
+            "s": { "technology": 2, "engineering": 1 }
+          },
+          {
+            "t": "Operations discipline",
+            "s": { "business": 2, "engineering": 1 }
+          },
+          { "t": "Prototyping craft", "s": { "design": 2, "engineering": 1 } }
+        ]
+      },
+      {
+        "q": "Pick a mentor session:",
+        "choices": [
+          { "t": "PE/EIT pathways", "s": { "engineering": 3 } },
+          {
+            "t": "Embedded/controls careers",
+            "s": { "technology": 2, "engineering": 1 }
+          },
+          {
+            "t": "Manufacturing leadership",
+            "s": { "business": 2, "engineering": 1 }
+          },
+          {
+            "t": "Industrial design collaboration",
+            "s": { "design": 2, "engineering": 1 }
+          }
+        ]
+      },
+      {
+        "q": "Which club would you join?",
+        "choices": [
+          {
+            "t": "Robotics/Maker club",
+            "s": { "engineering": 3, "technology": 1 }
+          },
+          {
+            "t": "Supply chain & ops",
+            "s": { "business": 2, "engineering": 1 }
+          },
+          { "t": "Human factors & ID", "s": { "design": 2, "engineering": 1 } },
+          {
+            "t": "Bioengineering society",
+            "s": { "healthcare": 2, "engineering": 1 }
+          }
+        ]
+      }
+    ]
+  }
+}

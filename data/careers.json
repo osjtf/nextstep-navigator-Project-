@@ -1,0 +1,588 @@
+[
+  {
+    "id": "sw-eng",
+    "title": "Software Engineer",
+    "industry": "Technology",
+    "skills": ["JavaScript", "Algorithms", "Git", "APIs"],
+    "education": "BSc in CS or related; Bootcamp acceptable",
+    "salaryMin": 65000,
+    "salaryMax": 130000,
+    "icon": "bi-code-slash"
+  },
+  {
+    "id": "data-analyst",
+    "title": "Data Analyst",
+    "industry": "Technology",
+    "skills": ["SQL", "Excel", "Visualization", "Python"],
+    "education": "BSc in IS/Statistics/Business Analytics",
+    "salaryMin": 55000,
+    "salaryMax": 105000,
+    "icon": "bi-bar-chart-line"
+  },
+  {
+    "id": "ui-ux",
+    "title": "UI/UX Designer",
+    "industry": "Design",
+    "skills": ["Wireframing", "Figma", "User Research", "Prototyping"],
+    "education": "Design/CS or strong portfolio",
+    "salaryMin": 50000,
+    "salaryMax": 100000,
+    "icon": "bi-palette2"
+  },
+  {
+    "id": "nurse",
+    "title": "Registered Nurse",
+    "industry": "Healthcare",
+    "skills": ["Patient Care", "Clinical Skills", "EMR", "Teamwork"],
+    "education": "BSN/Associate in Nursing + License",
+    "salaryMin": 60000,
+    "salaryMax": 98000,
+    "icon": "bi-heart-pulse"
+  },
+  {
+    "id": "physician",
+    "title": "Physician (General)",
+    "industry": "Healthcare",
+    "skills": ["Diagnostics", "EMR", "Communication", "Clinical"],
+    "education": "MD + Residency + License",
+    "salaryMin": 160000,
+    "salaryMax": 250000,
+    "icon": "bi-clipboard2-pulse"
+  },
+  {
+    "id": "acct",
+    "title": "Accountant",
+    "industry": "Business",
+    "skills": ["Accounting", "Tax", "Excel", "ERP"],
+    "education": "BCom/Accounting + CPA advantage",
+    "salaryMin": 48000,
+    "salaryMax": 90000,
+    "icon": "bi-calculator"
+  },
+  {
+    "id": "mktg",
+    "title": "Digital Marketer",
+    "industry": "Business",
+    "skills": ["SEO", "Content", "Ads", "Analytics"],
+    "education": "Marketing/Business or Certifications",
+    "salaryMin": 45000,
+    "salaryMax": 95000,
+    "icon": "bi-megaphone"
+  },
+  {
+    "id": "civil",
+    "title": "Civil Engineer",
+    "industry": "Engineering",
+    "skills": ["AutoCAD", "Project Mgmt", "Survey", "Materials"],
+    "education": "BSc Civil Engineering",
+    "salaryMin": 65000,
+    "salaryMax": 120000,
+    "icon": "bi-building"
+  },
+  {
+    "id": "mech",
+    "title": "Mechanical Engineer",
+    "industry": "Engineering",
+    "skills": ["CAD", "Thermodynamics", "Manufacturing"],
+    "education": "BSc Mechanical Engineering",
+    "salaryMin": 64000,
+    "salaryMax": 118000,
+    "icon": "bi-cpu"
+  },
+  {
+    "id": "teacher",
+    "title": "High School Teacher",
+    "industry": "Education",
+    "skills": ["Lesson Plans", "Assessment", "Classroom Mgmt"],
+    "education": "BEd + Subject Specialization",
+    "salaryMin": 42000,
+    "salaryMax": 80000,
+    "icon": "bi-journal-bookmark"
+  },
+  {
+    "id": "lawyer",
+    "title": "Lawyer",
+    "industry": "Law",
+    "skills": ["Legal Research", "Contracts", "Litigation"],
+    "education": "LLB/JD + Bar License",
+    "salaryMin": 90000,
+    "salaryMax": 180000,
+    "icon": "bi-balance-scale"
+  },
+  {
+    "id": "cyber",
+    "title": "Cybersecurity Analyst",
+    "industry": "Technology",
+    "skills": ["SIEM", "Threat Hunting", "Networking", "Linux"],
+    "education": "BSc CS/IT + Security Certs",
+    "salaryMin": 70000,
+    "salaryMax": 130000,
+    "icon": "bi-shield-lock"
+  },
+
+  {
+    "id": "cloud-eng",
+    "title": "Cloud Engineer",
+    "industry": "Technology",
+    "skills": ["AWS/Azure", "Terraform", "Linux", "Networking"],
+    "education": "BSc CS/IT; Cloud certs preferred",
+    "salaryMin": 90000,
+    "salaryMax": 150000,
+    "icon": "bi-cloud"
+  },
+  {
+    "id": "devops",
+    "title": "DevOps Engineer",
+    "industry": "Technology",
+    "skills": ["CI/CD", "Docker", "Kubernetes", "Scripting"],
+    "education": "BSc CS/IT or equivalent experience",
+    "salaryMin": 85000,
+    "salaryMax": 145000,
+    "icon": "bi-diagram-3"
+  },
+  {
+    "id": "ml-eng",
+    "title": "Machine Learning Engineer",
+    "industry": "Technology",
+    "skills": ["Python", "TensorFlow/PyTorch", "MLOps", "Data Pipelines"],
+    "education": "BSc/MSc in CS/AI/DS",
+    "salaryMin": 110000,
+    "salaryMax": 180000,
+    "icon": "bi-robot"
+  },
+  {
+    "id": "product-mgr",
+    "title": "Product Manager",
+    "industry": "Business",
+    "skills": ["Roadmaps", "User Research", "Analytics", "Stakeholders"],
+    "education": "Business/CS or equivalent experience",
+    "salaryMin": 95000,
+    "salaryMax": 165000,
+    "icon": "bi-kanban"
+  },
+  {
+    "id": "proj-mgr",
+    "title": "Project Manager",
+    "industry": "Business",
+    "skills": ["PMBOK/Agile", "Budgeting", "Risk", "Communication"],
+    "education": "BA/BS; PMP/Agile certs a plus",
+    "salaryMin": 75000,
+    "salaryMax": 135000,
+    "icon": "bi-clipboard-check"
+  },
+  {
+    "id": "ba",
+    "title": "Business Analyst",
+    "industry": "Business",
+    "skills": ["SQL", "Process Mapping", "Dashboards", "Requirements"],
+    "education": "BBA/IS/Analytics",
+    "salaryMin": 65000,
+    "salaryMax": 115000,
+    "icon": "bi-graph-up"
+  },
+  {
+    "id": "fin-analyst",
+    "title": "Financial Analyst",
+    "industry": "Finance",
+    "skills": ["Modeling", "Excel", "Valuation", "Reporting"],
+    "education": "BFin/Economics; CFA a plus",
+    "salaryMin": 60000,
+    "salaryMax": 110000,
+    "icon": "bi-currency-dollar"
+  },
+  {
+    "id": "hr-spec",
+    "title": "HR Specialist",
+    "industry": "Business",
+    "skills": ["Recruiting", "Onboarding", "HRIS", "Employee Relations"],
+    "education": "BHR/Business; SHRM a plus",
+    "salaryMin": 50000,
+    "salaryMax": 90000,
+    "icon": "bi-people"
+  },
+  {
+    "id": "sales-rep",
+    "title": "Sales Representative",
+    "industry": "Business",
+    "skills": ["Prospecting", "CRM", "Negotiation", "Presentation"],
+    "education": "Any bachelor’s; sales experience valued",
+    "salaryMin": 45000,
+    "salaryMax": 120000,
+    "icon": "bi-bag"
+  },
+  {
+    "id": "pharmacist",
+    "title": "Pharmacist",
+    "industry": "Healthcare",
+    "skills": ["Dispensing", "Drug Interactions", "Counseling", "Inventory"],
+    "education": "PharmD + License",
+    "salaryMin": 110000,
+    "salaryMax": 145000,
+    "icon": "bi-capsule"
+  },
+  {
+    "id": "dentist",
+    "title": "Dentist",
+    "industry": "Healthcare",
+    "skills": ["Diagnostics", "Restorative", "Surgery", "Patient Care"],
+    "education": "DDS/DMD + License",
+    "salaryMin": 140000,
+    "salaryMax": 220000,
+    "icon": "bi-emoji-smile"
+  },
+  {
+    "id": "electrical",
+    "title": "Electrical Engineer",
+    "industry": "Engineering",
+    "skills": ["Circuit Design", "Power Systems", "MATLAB", "PLC"],
+    "education": "BSc Electrical Engineering",
+    "salaryMin": 70000,
+    "salaryMax": 125000,
+    "icon": "bi-lightning-charge"
+  },
+  {
+    "id": "chemical",
+    "title": "Chemical Engineer",
+    "industry": "Engineering",
+    "skills": ["Process Design", "Thermo", "Simulation", "Safety"],
+    "education": "BSc Chemical Engineering",
+    "salaryMin": 72000,
+    "salaryMax": 130000,
+    "icon": "bi-beaker"
+  },
+  {
+    "id": "env-scientist",
+    "title": "Environmental Scientist",
+    "industry": "Environment",
+    "skills": ["Sampling", "GIS", "Impact Assessment", "Reporting"],
+    "education": "BSc Environmental Science",
+    "salaryMin": 52000,
+    "salaryMax": 98000,
+    "icon": "bi-tree"
+  },
+  {
+    "id": "graphic-designer",
+    "title": "Graphic Designer",
+    "industry": "Design",
+    "skills": ["Branding", "Illustration", "Adobe Suite", "Layout"],
+    "education": "Design degree or strong portfolio",
+    "salaryMin": 45000,
+    "salaryMax": 85000,
+    "icon": "bi-brush"
+  },
+  {
+    "id": "content-writer",
+    "title": "Content Writer",
+    "industry": "Media",
+    "skills": ["Copywriting", "SEO", "Research", "Editing"],
+    "education": "BA in Communications/English or portfolio",
+    "salaryMin": 42000,
+    "salaryMax": 80000,
+    "icon": "bi-pen"
+  },
+  {
+    "id": "journalist",
+    "title": "Journalist",
+    "industry": "Media",
+    "skills": ["Reporting", "Interviewing", "AP Style", "Fact-Checking"],
+    "education": "BA in Journalism/Communications",
+    "salaryMin": 40000,
+    "salaryMax": 85000,
+    "icon": "bi-newspaper"
+  },
+  {
+    "id": "social-worker",
+    "title": "Social Worker",
+    "industry": "Public Sector",
+    "skills": ["Case Mgmt", "Counseling", "Assessment", "Advocacy"],
+    "education": "BSW/MSW + License per region",
+    "salaryMin": 42000,
+    "salaryMax": 78000,
+    "icon": "bi-heart"
+  },
+  {
+    "id": "chef",
+    "title": "Chef",
+    "industry": "Hospitality",
+    "skills": ["Menu Design", "Food Safety", "Prep", "Leadership"],
+    "education": "Culinary school or apprenticeship",
+    "salaryMin": 40000,
+    "salaryMax": 90000,
+    "icon": "bi-egg-fried"
+  },
+  {
+    "id": "hotel-manager",
+    "title": "Hotel Manager",
+    "industry": "Hospitality",
+    "skills": ["Operations", "Guest Relations", "Revenue", "Staffing"],
+    "education": "Hospitality Mgmt or Business",
+    "salaryMin": 55000,
+    "salaryMax": 120000,
+    "icon": "bi-building"
+  },
+  {
+    "id": "pilot",
+    "title": "Commercial Pilot",
+    "industry": "Transportation",
+    "skills": ["Navigation", "Flight Ops", "Safety", "Communication"],
+    "education": "ATP license + flight hours",
+    "salaryMin": 90000,
+    "salaryMax": 200000,
+    "icon": "bi-airplane"
+  },
+  {
+    "id": "supply-chain",
+    "title": "Supply Chain Manager",
+    "industry": "Logistics",
+    "skills": ["Forecasting", "Procurement", "WMS/ERP", "Optimization"],
+    "education": "BBA/Industrial Engineering",
+    "salaryMin": 80000,
+    "salaryMax": 150000,
+    "icon": "bi-truck"
+  },
+  {
+    "id": "logistics-coord",
+    "title": "Logistics Coordinator",
+    "industry": "Logistics",
+    "skills": ["Scheduling", "Inventory", "Documentation", "Tracking"],
+    "education": "Diploma/Bachelor’s in Business/Logistics",
+    "salaryMin": 42000,
+    "salaryMax": 78000,
+    "icon": "bi-box-seam"
+  },
+  {
+    "id": "construction-mgr",
+    "title": "Construction Manager",
+    "industry": "Construction",
+    "skills": ["Project Control", "Estimating", "Safety", "Subcontracts"],
+    "education": "BSc Construction Mgmt/Civil",
+    "salaryMin": 85000,
+    "salaryMax": 150000,
+    "icon": "bi-cone-striped"
+  },
+  {
+    "id": "plumber",
+    "title": "Plumber",
+    "industry": "Skilled Trades",
+    "skills": ["Piping", "Blueprints", "Codes", "Repair"],
+    "education": "Apprenticeship + License",
+    "salaryMin": 45000,
+    "salaryMax": 90000,
+    "icon": "bi-wrench-adjustable"
+  },
+  {
+    "id": "electrician",
+    "title": "Electrician",
+    "industry": "Skilled Trades",
+    "skills": ["Wiring", "Panels", "Safety", "Diagnostics"],
+    "education": "Apprenticeship + License",
+    "salaryMin": 48000,
+    "salaryMax": 95000,
+    "icon": "bi-lightning"
+  },
+  {
+    "id": "carpenter",
+    "title": "Carpenter",
+    "industry": "Skilled Trades",
+    "skills": ["Framing", "Finish Carpentry", "Tools", "Blueprints"],
+    "education": "Apprenticeship/Trade school",
+    "salaryMin": 42000,
+    "salaryMax": 85000,
+    "icon": "bi-hammer"
+  },
+  {
+    "id": "web-dev",
+    "title": "Web Developer",
+    "industry": "Technology",
+    "skills": ["HTML/CSS", "JavaScript", "Frameworks", "Git"],
+    "education": "BSc CS or portfolio/bootcamp",
+    "salaryMin": 60000,
+    "salaryMax": 120000,
+    "icon": "bi-braces"
+  },
+  {
+    "id": "qa-tester",
+    "title": "QA Tester",
+    "industry": "Technology",
+    "skills": ["Test Plans", "Automation", "Bug Tracking", "Selenium"],
+    "education": "BSc CS/IT or equivalent",
+    "salaryMin": 52000,
+    "salaryMax": 98000,
+    "icon": "bi-bug"
+  },
+  {
+    "id": "net-admin",
+    "title": "Network Administrator",
+    "industry": "Technology",
+    "skills": ["Routing", "Switching", "Firewalls", "Monitoring"],
+    "education": "BSc IT/Networking; CCNA helpful",
+    "salaryMin": 58000,
+    "salaryMax": 105000,
+    "icon": "bi-hdd-network"
+  },
+  {
+    "id": "dba",
+    "title": "Database Administrator",
+    "industry": "Technology",
+    "skills": ["SQL Server/Postgres", "Backups", "Tuning", "Security"],
+    "education": "BSc CS/IS",
+    "salaryMin": 80000,
+    "salaryMax": 135000,
+    "icon": "bi-database"
+  },
+  {
+    "id": "mobile-dev",
+    "title": "Mobile Developer",
+    "industry": "Technology",
+    "skills": ["iOS/Android", "Swift/Kotlin", "APIs", "UI"],
+    "education": "BSc CS or portfolio",
+    "salaryMin": 80000,
+    "salaryMax": 145000,
+    "icon": "bi-phone"
+  },
+  {
+    "id": "game-dev",
+    "title": "Game Developer",
+    "industry": "Technology",
+    "skills": ["Unity/Unreal", "C# / C++", "Gameplay", "Shaders"],
+    "education": "CS/Game Dev or portfolio",
+    "salaryMin": 70000,
+    "salaryMax": 140000,
+    "icon": "bi-controller"
+  },
+  {
+    "id": "ai-researcher",
+    "title": "AI Researcher",
+    "industry": "Technology",
+    "skills": ["ML Theory", "Deep Learning", "Paper Writing", "Prototyping"],
+    "education": "MSc/PhD in CS/AI",
+    "salaryMin": 130000,
+    "salaryMax": 220000,
+    "icon": "bi-lightbulb"
+  },
+  {
+    "id": "economist",
+    "title": "Economist",
+    "industry": "Finance",
+    "skills": ["Econometrics", "R/Stata", "Forecasting", "Policy"],
+    "education": "MSc Economics; PhD for research roles",
+    "salaryMin": 80000,
+    "salaryMax": 160000,
+    "icon": "bi-graph-up-arrow"
+  },
+  {
+    "id": "professor",
+    "title": "University Professor",
+    "industry": "Education",
+    "skills": ["Teaching", "Research", "Curriculum", "Mentoring"],
+    "education": "PhD in discipline",
+    "salaryMin": 70000,
+    "salaryMax": 150000,
+    "icon": "bi-mortarboard"
+  },
+  {
+    "id": "counselor",
+    "title": "Counselor",
+    "industry": "Healthcare",
+    "skills": ["Therapy", "Assessment", "Treatment Plans", "Ethics"],
+    "education": "MA Counseling + License",
+    "salaryMin": 48000,
+    "salaryMax": 95000,
+    "icon": "bi-chat-square-heart"
+  },
+  {
+    "id": "lab-tech",
+    "title": "Laboratory Technician",
+    "industry": "Healthcare",
+    "skills": ["Specimen Prep", "Equipment", "QA", "Recording"],
+    "education": "Associate/Bachelor in Lab Tech",
+    "salaryMin": 42000,
+    "salaryMax": 78000,
+    "icon": "bi-droplet"
+  },
+  {
+    "id": "architect",
+    "title": "Architect",
+    "industry": "Design",
+    "skills": [
+      "Revit/AutoCAD",
+      "Building Codes",
+      "3D Modeling",
+      "Client Comms"
+    ],
+    "education": "BArch + License (region-specific)",
+    "salaryMin": 70000,
+    "salaryMax": 130000,
+    "icon": "bi-house"
+  },
+  {
+    "id": "solar-tech",
+    "title": "Solar PV Technician",
+    "industry": "Energy",
+    "skills": ["PV Systems", "Electrical", "Roof Work", "Safety"],
+    "education": "Trade program + certification",
+    "salaryMin": 42000,
+    "salaryMax": 85000,
+    "icon": "bi-sun"
+  },
+  {
+    "id": "chemist-qc",
+    "title": "Quality Control Chemist",
+    "industry": "Manufacturing",
+    "skills": ["Wet Lab", "Chromatography", "Documentation", "GMP"],
+    "education": "BSc Chemistry",
+    "salaryMin": 52000,
+    "salaryMax": 98000,
+    "icon": "bi-flask"
+  },
+  {
+    "id": "agronomist",
+    "title": "Agronomist",
+    "industry": "Agriculture",
+    "skills": ["Crop Science", "Soil", "Irrigation", "Field Trials"],
+    "education": "BSc/MSc Agronomy",
+    "salaryMin": 50000,
+    "salaryMax": 98000,
+    "icon": "bi-flower3"
+  },
+  {
+    "id": "vet",
+    "title": "Veterinarian",
+    "industry": "Healthcare",
+    "skills": ["Diagnostics", "Surgery", "Preventive Care", "Client Comms"],
+    "education": "DVM + License",
+    "salaryMin": 90000,
+    "salaryMax": 150000,
+    "icon": "bi-bandaid"
+  },
+  {
+    "id": "event-mgr",
+    "title": "Event Manager",
+    "industry": "Hospitality",
+    "skills": ["Planning", "Vendors", "Budgets", "Logistics"],
+    "education": "BA in Events/Hospitality or experience",
+    "salaryMin": 45000,
+    "salaryMax": 95000,
+    "icon": "bi-calendar-event"
+  },
+  {
+    "id": "security-architect",
+    "title": "Security Architect",
+    "industry": "Technology",
+    "skills": ["Zero Trust", "IAM", "Cloud Security", "Risk"],
+    "education": "BSc CS/IT; CISSP/CCSP a plus",
+    "salaryMin": 130000,
+    "salaryMax": 200000,
+    "icon": "bi-shield-lock-fill"
+  },
+  {
+    "id": "sre",
+    "title": "Site Reliability Engineer",
+    "industry": "Technology",
+    "skills": ["Observability", "SLIs/SLOs", "Automation", "On-call"],
+    "education": "BSc CS/IT or equivalent",
+    "salaryMin": 110000,
+    "salaryMax": 180000,
+    "icon": "bi-activity"
+  }
+]

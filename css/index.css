@@ -1,0 +1,352 @@
+:root {
+  --brand: #5b7cff;
+  --brand-2: #0ea5e9;
+  --ink: #101828;
+  --muted: #667085;
+  --surface: #f8fafc;
+  --card: #ffffff;
+  --ring: #d0d5dd;
+}
+
+html,
+body {
+  background: var(--surface);
+  color: var(--ink);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+  backdrop-filter: saturate(180%) blur(6px);
+}
+
+.brand-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.brand-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--brand), var(--brand-2));
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.15);
+  animation: pulseDot 2.4s ease-in-out infinite;
+}
+
+@keyframes pulseDot {
+  0%,
+  100% {
+    box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.15);
+    transform: scale(1);
+  }
+
+  50% {
+    box-shadow: 0 0 0 6px rgba(14, 165, 233, 0.25);
+    transform: scale(1.08);
+  }
+}
+
+.nav-link.active {
+  position: relative;
+}
+
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0.5rem;
+  right: 0.5rem;
+  bottom: 0.3rem;
+  height: 2px;
+  background: linear-gradient(90deg, var(--brand), var(--brand-2));
+  border-radius: 2px;
+  animation: activeUnderline 2.8s ease-in-out infinite;
+}
+
+@keyframes activeUnderline {
+  0%,
+  100% {
+    opacity: 0.35;
+    transform: scaleX(0.85);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  padding: 6rem 0 4rem;
+  overflow: hidden;
+  background: radial-gradient(
+      1200px 600px at 20% -10%,
+      rgba(91, 124, 255, 0.15),
+      transparent 60%
+    ),
+    radial-gradient(
+      1200px 600px at 120% 10%,
+      rgba(14, 165, 233, 0.15),
+      transparent 60%
+    );
+  isolation: isolate;
+}
+
+/* animated blobs */
+.hero::before,
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: auto auto -120px -120px;
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 30% 30%,
+    rgba(91, 124, 255, 0.22),
+    transparent 60%
+  );
+  filter: blur(20px);
+  z-index: -1;
+  animation: blobA 18s ease-in-out infinite;
+}
+
+.hero::after {
+  left: auto;
+  right: -120px;
+  bottom: -140px;
+  width: 420px;
+  height: 420px;
+  background: radial-gradient(
+    circle at 70% 70%,
+    rgba(14, 165, 233, 0.22),
+    transparent 60%
+  );
+  animation: blobB 22s ease-in-out infinite;
+}
+
+@keyframes blobA {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  50% {
+    transform: translate(40px, -20px) scale(1.12);
+  }
+
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+@keyframes blobB {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  50% {
+    transform: translate(-30px, 25px) scale(1.08);
+  }
+
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+.hero h1 {
+  font-weight: 800;
+  line-height: 1.1;
+  background: linear-gradient(90deg, var(--brand) 0%, var(--brand-2) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: glow 3.5s ease-in-out infinite;
+  position: relative;
+}
+
+/* sheen sweep */
+.hero h1::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.5) 15%,
+    transparent 30%
+  );
+  transform: translateX(-120%);
+  mix-blend-mode: overlay;
+  pointer-events: none;
+  animation: sheen 5.5s ease-in-out infinite 1.2s;
+}
+
+@keyframes sheen {
+  0% {
+    transform: translateX(-120%);
+  }
+
+  40% {
+    transform: translateX(120%);
+  }
+
+  100% {
+    transform: translateX(120%);
+  }
+}
+
+@keyframes glow {
+  0%,
+  100% {
+    text-shadow: 0 0 0 rgba(91, 124, 255, 0);
+  }
+
+  50% {
+    text-shadow: 0 8px 32px rgba(91, 124, 255, 0.25);
+  }
+}
+
+.hero .sub {
+  color: var(--muted);
+}
+
+/* Cards */
+.feature-card {
+  border: 1px solid var(--ring);
+  background: var(--card);
+  border-radius: 18px;
+  transition: transform 0.28s ease, box-shadow 0.28s ease,
+    border-color 0.28s ease;
+  height: 100%;
+  will-change: transform;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(16, 24, 40, 0.08);
+  border-color: rgba(91, 124, 255, 0.5);
+}
+
+/* quick-link tilt */
+.quick-link {
+  transition: transform 0.12s ease, box-shadow 0.2s ease;
+}
+
+.quick-link:active {
+  transform: scale(0.98) translateY(1px);
+  box-shadow: 0 6px 16px rgba(16, 24, 40, 0.06) inset;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid var(--ring);
+  border-radius: 999px;
+  padding: 0.35rem 0.75rem;
+  color: #0f172a;
+  background: #fff;
+  box-shadow: 0 1px 0 rgba(16, 24, 40, 0.04);
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.section-title {
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+/* Breadcrumb strip (if used elsewhere) */
+.crumbs {
+  background: #fff;
+  border-top: 1px solid #eef2f7;
+  border-bottom: 1px solid #eef2f7;
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid #e2e8f0;
+  background: #fff;
+}
+
+/* Helpers */
+.pointer {
+  cursor: pointer;
+}
+
+.list-mini li + li {
+  border-top: 1px dashed #e5e7eb;
+}
+
+.list-mini li {
+  padding: 0.5rem 0;
+}
+
+/* -------- Scroll reveal system -------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal[data-reveal="left"] {
+  transform: translateX(-18px);
+}
+
+.reveal[data-reveal="right"] {
+  transform: translateX(18px);
+}
+
+.reveal.in[data-reveal="left"],
+.reveal.in[data-reveal="right"] {
+  transform: translateX(0);
+}
+
+/* Button ripple */
+.ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+.ripple::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  width: 10px;
+  height: 10px;
+  background: radial-gradient(
+    circle,
+    rgba(14, 165, 233, 0.35) 0%,
+    rgba(14, 165, 233, 0) 70%
+  );
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0.9;
+  animation: none;
+}
+
+.ripple--animating::after {
+  animation: rip 600ms ease-out forwards;
+}
+
+@keyframes rip {
+  to {
+    transform: translate(var(--rx), var(--ry)) scale(20);
+    opacity: 0;
+  }
+}

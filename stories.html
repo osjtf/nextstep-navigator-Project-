@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Success Stories — NextStep Navigator</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/stories.css" />
+    <style></style>
+  </head>
+  <body data-page="stories">
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <nav class="navbar navbar-expand-lg border-bottom sticky-top reveal">
+      <div class="container py-2">
+        <a
+          class="navbar-brand fw-bold d-flex align-items-center gap-2"
+          href="index.html"
+        >
+          <span class="brand-dot"></span> NextStep
+          <span class="text-primary">Navigator</span>
+        </a>
+        <div class="ms-auto d-flex align-items-center gap-3">
+          <span class="small text-muted" id="helloUser"></span>
+          <a class="btn btn-outline-secondary btn-sm ripple" href="index.html"
+            ><i class="bi bi-house me-1"></i> Home</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <header class="page-head py-4 reveal">
+      <div class="sparkles" aria-hidden="true"></div>
+      <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-2">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Success Stories
+            </li>
+          </ol>
+        </nav>
+        <div
+          class="d-flex flex-column flex-md-row align-items-md-end align-items-start justify-content-between gap-3"
+        >
+          <div>
+            <h1 class="mb-1">Success Stories</h1>
+            <p class="lead lead-muted mb-0">
+              Inspiring journeys across domains — filter by field or audience.
+              Data loaded from JSON.
+            </p>
+          </div>
+          <span class="pill"
+            ><i class="bi bi-shield-check"></i> Privacy-first • Static
+            JSON</span
+          >
+        </div>
+      </div>
+    </header>
+
+    <main class="py-4 reveal" id="main">
+      <div class="container">
+        <div class="row g-4">
+          <aside class="col-lg-3 reveal" data-reveal="left">
+            <div class="panel p-3">
+              <div class="d-flex align-items-center justify-content-between">
+                <h6 class="mb-0">Filters</h6>
+                <button
+                  class="btn btn-link btn-sm ripple"
+                  id="btnClear"
+                  type="button"
+                >
+                  Clear
+                </button>
+              </div>
+              <hr />
+
+              <div class="mb-3">
+                <label class="form-label mb-1" for="search">Search</label>
+                <input
+                  type="search"
+                  id="search"
+                  class="form-control"
+                  placeholder="Name, title, tags…"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label mb-1" for="userTypeFilter"
+                  >User Type</label
+                >
+                <select id="userTypeFilter" class="form-select">
+                  <option value="">All</option>
+                  <option value="student">Student</option>
+                  <option value="graduate">Graduate</option>
+                  <option value="professional">Professional</option>
+                </select>
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label mb-1" for="domainFilter">Domain</label>
+                <select id="domainFilter" class="form-select">
+                  <option value="">All</option>
+                  <option value="engineering">Engineering</option>
+                  <option value="technology">Technology</option>
+                  <option value="healthcare">Healthcare</option>
+                  <option value="business">Business</option>
+                  <option value="arts">Arts</option>
+                  <option value="science">Science</option>
+                </select>
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label mb-1" for="sortBy">Sort by</label>
+                <select id="sortBy" class="form-select">
+                  <option value="newest">Newest → Oldest</option>
+                  <option value="oldest">Oldest → Newest</option>
+                  <option value="az">Name A → Z</option>
+                  <option value="za">Name Z → A</option>
+                </select>
+              </div>
+
+              <div class="mb-0">
+                <label class="form-label mb-1" for="perPage"
+                  >Items per page</label
+                >
+                <select id="perPage" class="form-select">
+                  <option>6</option>
+                  <option selected>9</option>
+                  <option>12</option>
+                  <option>15</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="panel p-3 mt-3 reveal">
+              <h6>Recently Viewed</h6>
+              <ul id="recentList" class="list-unstyled small mb-0">
+                <li class="text-muted">Nothing yet.</li>
+              </ul>
+            </div>
+
+            <div class="panel p-3 mt-3 reveal">
+              <h6>Your Bookmarks</h6>
+              <ul id="bookmarkList" class="list-unstyled small mb-2">
+                <li class="text-muted">No bookmarks yet.</li>
+              </ul>
+              <div class="d-flex gap-2">
+                <button
+                  class="btn btn-outline-primary btn-sm ripple"
+                  id="exportBookmarks"
+                  type="button"
+                >
+                  <i class="bi bi-arrow-down-square me-1"></i> Export
+                </button>
+                <button
+                  class="btn btn-outline-danger btn-sm ripple"
+                  id="clearBookmarks"
+                  type="button"
+                >
+                  <i class="bi bi-trash3 me-1"></i> Clear
+                </button>
+              </div>
+            </div>
+          </aside>
+
+          <section class="col-lg-9">
+            <div class="d-flex align-items-center justify-content-between mb-2">
+              <div
+                class="small text-muted"
+                id="resultCount"
+                role="status"
+                aria-live="polite"
+              >
+                Loading…
+              </div>
+              <div class="small text-muted" id="activeProfile"></div>
+            </div>
+
+            <div id="skeleton" class="row g-3">
+              <div class="col-12 col-md-6 col-xl-4">
+                <div class="result-skel"></div>
+              </div>
+              <div class="col-12 col-md-6 col-xl-4">
+                <div class="result-skel"></div>
+              </div>
+              <div class="col-12 col-md-6 col-xl-4">
+                <div class="result-skel"></div>
+              </div>
+            </div>
+
+            <div id="grid" class="row g-3 hidden"></div>
+
+            <nav
+              class="d-flex align-items-center justify-content-between mt-3 reveal"
+              aria-label="Pagination"
+            >
+              <div class="small text-muted" id="pageInfo"></div>
+              <ul class="pagination mb-0">
+                <li class="page-item">
+                  <button class="page-link ripple" id="prevPage" type="button">
+                    Prev
+                  </button>
+                </li>
+                <li class="page-item">
+                  <button class="page-link ripple" id="nextPage" type="button">
+                    Next
+                  </button>
+                </li>
+              </ul>
+            </nav>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer class="py-4 border-top bg-white reveal">
+      <div
+        class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-2"
+      >
+        <div class="small text-muted">
+          © <span id="year"></span> NextStep Navigator • Success Stories
+        </div>
+        <div class="small">
+          <a href="about.html" class="me-3">About</a
+          ><a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/nsn-shared.js"></script>
+    <script src="js/stories.js"></script>
+
+    <script></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

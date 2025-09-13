@@ -1,0 +1,357 @@
+/* =========================
+   Page CSS — Updated to match Admissions header style
+   ========================= */
+:root {
+  --brand: #5b7cff;
+  --brand2: #0ea5e9;
+  --ink: #0f172a;
+  --muted: #667085;
+  --ring: #e5e7eb;
+  --card: #fff;
+  --surface: #f8fafc;
+
+  --e1: cubic-bezier(0.22, 1, 0.36, 1);
+  --e2: cubic-bezier(0.16, 0.84, 0.44, 1);
+  --shadow-1: 0 12px 26px rgba(16, 24, 40, 0.07);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+html,
+body {
+  background: var(--surface);
+  color: var(--ink);
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+
+/* =========================
+   Navbar (sticky shadow + brand dot)
+   ========================= */
+.navbar {
+  background: #fff;
+  transition: box-shadow 0.25s var(--e1);
+}
+.navbar.is-stuck {
+  box-shadow: 0 10px 30px rgba(16, 24, 40, 0.08);
+}
+
+.brand-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--brand), var(--brand2));
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.15);
+  animation: pulseDot 2.4s ease-in-out infinite;
+}
+@keyframes pulseDot {
+  0%,
+  100% {
+    box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.15);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(14, 165, 233, 0.25);
+    transform: scale(1.08);
+  }
+}
+
+/* =========================
+   Header (radial glow + sparkles like Admissions)
+   ========================= */
+.page-head {
+  position: relative;
+  background: #fff;
+  border-bottom: 1px solid #eef2f7;
+  overflow: hidden;
+}
+.page-head::after {
+  content: "";
+  position: absolute;
+  inset: -40% -20% auto -20%;
+  height: 200%;
+  background: radial-gradient(
+      1200px 300px at 20% 20%,
+      rgba(91, 124, 255, 0.1),
+      transparent 60%
+    ),
+    radial-gradient(
+      900px 250px at 80% 10%,
+      rgba(14, 165, 233, 0.1),
+      transparent 60%
+    );
+  animation: sweep 0.9s var(--e2);
+}
+@keyframes sweep {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* sparkles layer (include <div class="sparkles" aria-hidden="true"></div> inside .page-head) */
+.sparkles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.sparkles i {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #c7d2fe 0, rgba(199, 210, 254, 0) 70%);
+  filter: blur(0.2px);
+  opacity: 0.8;
+  animation: floaty 8s linear infinite;
+}
+@keyframes floaty {
+  0% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+
+/* =========================
+   Text + badges
+   ========================= */
+.lead-muted {
+  color: var(--muted);
+}
+.muted {
+  color: var(--muted);
+}
+
+.pill,
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0.6rem;
+  background: #fff;
+  font-size: 0.8rem;
+  border: 1px solid var(--ring);
+  border-radius: 999px;
+}
+
+/* =========================
+   Panels / cards
+   ========================= */
+.panel {
+  background: #fff;
+  border: 1px solid var(--ring);
+  border-radius: 18px;
+  transition: box-shadow 0.25s var(--e1), transform 0.25s var(--e1);
+}
+.panel:hover {
+  box-shadow: var(--shadow-1);
+}
+
+.feature-card {
+  border: 1px solid var(--ring);
+  background: var(--card);
+  border-radius: 16px;
+  transition: transform 0.25s var(--e2), box-shadow 0.25s var(--e2),
+    border-color 0.25s var(--e2);
+}
+.feature-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-1);
+  border-color: rgba(91, 124, 255, 0.4);
+}
+
+/* =========================
+   Form styles
+   ========================= */
+.required::after {
+  content: " *";
+  color: #dc2626;
+}
+
+.charbar {
+  height: 8px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: #f1f5f9;
+}
+.charbar > div {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--brand), var(--brand2));
+  transition: width 0.35s var(--e1);
+}
+
+.help {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.form-control.is-valid,
+.form-select.is-valid {
+  border-color: #86efac;
+}
+.form-control.is-invalid,
+.form-select.is-invalid {
+  border-color: #fca5a5;
+}
+
+.form-control,
+.form-select {
+  transition: border-color 0.2s var(--e1), box-shadow 0.2s var(--e1);
+}
+.form-control:focus,
+.form-select:focus {
+  border-color: #93c5fd;
+  box-shadow: 0 0 0 0.2rem rgba(59, 130, 246, 0.15);
+}
+
+/* =========================
+   Utilities
+   ========================= */
+.hidden {
+  display: none !important;
+}
+.toast-container {
+  z-index: 1080;
+}
+.bookmark-active {
+  color: #e11d48 !important;
+}
+
+/* =========================
+   Scroll reveal
+   ========================= */
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.6s var(--e1), transform 0.6s var(--e1);
+}
+.reveal.in {
+  opacity: 1;
+  transform: none;
+}
+.reveal[data-reveal="left"] {
+  transform: translateX(-18px);
+}
+.reveal[data-reveal="right"] {
+  transform: translateX(18px);
+}
+.reveal.in[data-reveal="left"],
+.reveal.in[data-reveal="right"] {
+  transform: none;
+}
+
+/* Breadcrumb stagger */
+.breadcrumb {
+  position: relative;
+}
+.breadcrumb li {
+  opacity: 0;
+  transform: translateY(6px);
+  animation: crumbIn 0.5s ease forwards;
+}
+.breadcrumb li:nth-child(1) {
+  animation-delay: 0.05s;
+}
+.breadcrumb li:nth-child(2) {
+  animation-delay: 0.12s;
+}
+.breadcrumb li:nth-child(3) {
+  animation-delay: 0.19s;
+}
+@keyframes crumbIn {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* =========================
+   Button ripple
+   ========================= */
+.ripple {
+  position: relative;
+  overflow: hidden;
+}
+.ripple::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: 0.9;
+  background: radial-gradient(
+    circle,
+    rgba(14, 165, 233, 0.35) 0%,
+    rgba(14, 165, 233, 0) 70%
+  );
+  transform: translate(-50%, -50%) scale(0);
+}
+.ripple--animating::after {
+  animation: rip 600ms ease-out forwards;
+}
+@keyframes rip {
+  to {
+    transform: translate(var(--rx), var(--ry)) scale(20);
+    opacity: 0;
+  }
+}
+
+/* =========================
+   Toast + modal micro-animations
+   ========================= */
+.toast.show {
+  animation: toastIn 0.35s var(--e1) both;
+}
+@keyframes toastIn {
+  0% {
+    transform: translateY(8px);
+    opacity: 0;
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+.modal.fade .modal-dialog {
+  transform: translateY(10px);
+  transition: transform 0.25s var(--e1);
+}
+.modal.show .modal-dialog {
+  transform: none;
+}
+
+/* =========================
+   Helpful extras
+   ========================= */
+.anchor-offset {
+  scroll-margin-top: 84px;
+}
+.list-mini li + li {
+  border-top: 1px dashed #e5e7eb;
+}
+.list-mini li {
+  padding: 0.4rem 0;
+}
